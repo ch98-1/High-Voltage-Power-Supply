@@ -1,7 +1,7 @@
 ### License
 
 All files are licensed under [zlib license](https://opensource.org/licenses/Zlib) unless noted otherwise.
-Some KiCad Library Files (High Voltage Power Supply/High Voltage Power Supply-cache.lib) are licensed under [KiCad Libraries License] (http://kicad-pcb.org/libraries/license/)
+Some KiCad Library Files (High_Voltage_Power_Supply/High_Voltage_Power_Supply-cache.lib) are licensed under [KiCad Libraries License] (http://kicad-pcb.org/libraries/license/)
 
 ------------------
 
