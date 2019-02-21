@@ -1,11 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x02_Female
+# Connector_Conn_01x01_Female
 #
-DEF Connector:Conn_01x02_Female J 0 40 Y N 1 F N
+DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x02_Female" 0 -200 50 H V C CNN
+F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x02_Female
+#
+DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -21,11 +38,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -39,11 +56,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:CP
+# Device_CP
 #
-DEF Device:CP C 0 10 N Y 1 F N
+DEF Device_CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:CP" 25 -100 50 H V L CNN
+F1 "Device_CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -62,11 +79,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D_ALT
+# Device_D_ALT
 #
-DEF Device:D_ALT D 0 40 N N 1 F N
+DEF Device_D_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D_ALT" 0 -100 50 H V C CNN
+F1 "Device_D_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -84,11 +101,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_NMOS_DGS
+# Device_Q_NMOS_DGS
 #
-DEF Device:Q_NMOS_DGS Q 0 0 Y N 1 F N
+DEF Device_Q_NMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_NMOS_DGS" 200 -50 50 H V L CNN
+F1 "Device_Q_NMOS_DGS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -116,11 +133,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -133,11 +150,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# High_Voltage_Power_Supply:GA3460-BL
+# High_Voltage_Power_Supply_GA3460-BL
 #
-DEF High_Voltage_Power_Supply:GA3460-BL TR 0 40 Y Y 1 F N
+DEF High_Voltage_Power_Supply_GA3460-BL TR 0 40 Y Y 1 F N
 F0 "TR" 0 600 50 H V C CNN
-F1 "High_Voltage_Power_Supply:GA3460-BL" 0 -600 50 H V C CNN
+F1 "High_Voltage_Power_Supply_GA3460-BL" 0 -600 50 H V C CNN
 F2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" 50 -700 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
 DRAW
@@ -204,11 +221,11 @@ X ~ 9 -600 -500 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# High_Voltage_Power_Supply:LT3751-TSSOP
+# High_Voltage_Power_Supply_LT3751-TSSOP
 #
-DEF High_Voltage_Power_Supply:LT3751-TSSOP U 0 40 Y Y 1 F N
+DEF High_Voltage_Power_Supply_LT3751-TSSOP U 0 40 Y Y 1 F N
 F0 "U" -400 950 50 H V C CNN
-F1 "High_Voltage_Power_Supply:LT3751-TSSOP" 400 950 50 H V C CNN
+F1 "High_Voltage_Power_Supply_LT3751-TSSOP" 400 950 50 H V C CNN
 F2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -235,11 +252,11 @@ X CLAMP 9 -550 600 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -248,11 +265,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:VCC
+# power_VCC
 #
-DEF power:VCC #PWR 0 0 Y Y 1 F P
+DEF power_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VCC" 0 150 50 H V C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
