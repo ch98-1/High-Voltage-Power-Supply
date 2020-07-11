@@ -7,9 +7,9 @@ Some KiCad Library Files (High_Voltage_Power_Supply/High_Voltage_Power_Supply-ca
 
 ### zlib License
 
-Copyright (c) 2018 Corwin Hansen
+Copyright (c) 2020 Corwin Hansen
 
-This software is provided 'as-is', without any express or implied
+This hardware design is provided 'as-is', without any express or implied
 warranty. In no event will the authors be held liable for any damages
 arising from the use of this software.
 
