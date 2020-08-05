@@ -849,7 +849,7 @@ F 0 "R?" V 3550 3950 50  0000 C CNN
 F 1 "1.3M" V 3500 3750 50  0000 C CNN
 F 2 "" V 3480 3950 50  0001 C CNN
 F 3 "~" H 3550 3950 50  0001 C CNN
-F 4 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&sv=0&pv3=1131&sf=0&FV=-1%7C10%2C-8%7C52%2Cmu1.3+MOhms%7C2085&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&pageSize=25" V 3550 3950 50  0001 C CNN "Search"
+F 4 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&sv=0&pv2085=u1.3+MOhms&sf=0&FV=-1%7C10%2C-8%7C52&quantity=&ColumnSort=0&page=1&stock=1&nstock=1&pageSize=25" V 3550 3950 50  0001 C CNN "Search"
 	1    3550 3950
 	0    1    1    0   
 $EndComp
