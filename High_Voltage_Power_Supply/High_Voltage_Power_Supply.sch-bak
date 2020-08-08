@@ -354,17 +354,6 @@ Connection ~ 4450 5000
 Wire Wire Line
 	5000 4750 5000 5000
 $Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 5B8F26EA
-P 2700 2800
-F 0 "J4" H 2600 3000 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 2600 2900 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2700 2800 50  0001 C CNN
-F 3 "~" H 2700 2800 50  0001 C CNN
-	1    2700 2800
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Conn_01x02_Female J1
 U 1 1 5F099A6F
 P 4450 6250
@@ -849,4 +838,28 @@ $EndComp
 Connection ~ 2900 1400
 Wire Wire Line
 	2900 1400 3550 1400
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5F32122E
+P 2700 2900
+F 0 "J4" H 2700 2700 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2950 2600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2700 2900 50  0001 C CNN
+F 3 "~" H 2700 2900 50  0001 C CNN
+	1    2700 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F322467
+P 2900 3000
+F 0 "#PWR?" H 2900 2750 50  0001 C CNN
+F 1 "GND" H 2905 2827 50  0000 C CNN
+F 2 "" H 2900 3000 50  0001 C CNN
+F 3 "" H 2900 3000 50  0001 C CNN
+	1    2900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3000 2900 2900
 $EndSCHEMATC
