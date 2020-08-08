@@ -134,74 +134,80 @@ Wire Wire Line
 Wire Wire Line
 	3500 1800 3500 1700
 $Comp
-L High_Voltage_Power_Supply:GA3460-BL TR?
+L High_Voltage_Power_Supply:GA3460-BL TR1
 U 1 1 5F60E716
 P 4100 2000
-F 0 "TR?" H 4057 1285 50  0000 C CNN
+F 0 "TR1" H 4057 1285 50  0000 C CNN
 F 1 "GA3460-BL" H 4057 1376 50  0000 C CNN
 F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 4150 1300 50  0001 C CNN
-F 3 "" H 4000 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/597/ga3459-463457.pdf" H 4000 2000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" H 4100 2000 50  0001 C CNN "Link"
 	1    4100 2000
 	1    0    0    1   
 $EndComp
 $Comp
-L High_Voltage_Power_Supply:GA3460-BL TR?
+L High_Voltage_Power_Supply:GA3460-BL TR2
 U 1 1 5F683ED0
 P 6600 2000
-F 0 "TR?" H 6557 1285 50  0000 C CNN
+F 0 "TR2" H 6557 1285 50  0000 C CNN
 F 1 "GA3460-BL" H 6557 1376 50  0000 C CNN
 F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 6650 1300 50  0001 C CNN
-F 3 "" H 6500 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/597/ga3459-463457.pdf" H 6500 2000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" H 6600 2000 50  0001 C CNN "Link"
 	1    6600 2000
 	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6000 2500 6000 2600
 $Comp
-L High_Voltage_Power_Supply:GA3460-BL TR?
+L High_Voltage_Power_Supply:GA3460-BL TR3
 U 1 1 5F68609E
 P 4100 3500
-F 0 "TR?" H 4057 2785 50  0000 C CNN
+F 0 "TR3" H 4057 2785 50  0000 C CNN
 F 1 "GA3460-BL" H 4057 2876 50  0000 C CNN
 F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 4150 2800 50  0001 C CNN
-F 3 "" H 4000 3500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/597/ga3459-463457.pdf" H 4000 3500 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" H 4100 3500 50  0001 C CNN "Link"
 	1    4100 3500
 	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3500 4000 3500 4100
 $Comp
-L High_Voltage_Power_Supply:GA3460-BL TR?
+L High_Voltage_Power_Supply:GA3460-BL TR4
 U 1 1 5F6896C3
 P 6600 3500
-F 0 "TR?" H 6557 2785 50  0000 C CNN
+F 0 "TR4" H 6557 2785 50  0000 C CNN
 F 1 "GA3460-BL" H 6557 2876 50  0000 C CNN
 F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 6650 2800 50  0001 C CNN
-F 3 "" H 6500 3500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/597/ga3459-463457.pdf" H 6500 3500 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" H 6600 3500 50  0001 C CNN "Link"
 	1    6600 3500
 	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6000 4000 6000 4100
 $Comp
-L High_Voltage_Power_Supply:GA3460-BL TR?
+L High_Voltage_Power_Supply:GA3460-BL TR6
 U 1 1 5F68DCC8
 P 6600 5000
-F 0 "TR?" H 6557 4285 50  0000 C CNN
+F 0 "TR6" H 6557 4285 50  0000 C CNN
 F 1 "GA3460-BL" H 6557 4376 50  0000 C CNN
 F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 6650 4300 50  0001 C CNN
-F 3 "" H 6500 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/597/ga3459-463457.pdf" H 6500 5000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" H 6600 5000 50  0001 C CNN "Link"
 	1    6600 5000
 	1    0    0    1   
 $EndComp
 $Comp
-L High_Voltage_Power_Supply:GA3460-BL TR?
+L High_Voltage_Power_Supply:GA3460-BL TR5
 U 1 1 5F69028C
 P 4100 5000
-F 0 "TR?" H 4057 4285 50  0000 C CNN
+F 0 "TR5" H 4057 4285 50  0000 C CNN
 F 1 "GA3460-BL" H 4057 4376 50  0000 C CNN
 F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 4150 4300 50  0001 C CNN
-F 3 "" H 4000 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/597/ga3459-463457.pdf" H 4000 5000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" H 4100 5000 50  0001 C CNN "Link"
 	1    4100 5000
 	1    0    0    1   
 $EndComp
