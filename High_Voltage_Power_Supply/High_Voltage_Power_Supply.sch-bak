@@ -199,68 +199,61 @@ Wire Wire Line
 $Comp
 L Device:C C4
 U 1 1 5B8A9F27
-P 2950 3450
-F 0 "C4" H 3065 3496 50  0000 L CNN
-F 1 "10uF" H 3065 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2988 3300 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 2950 3450 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 2950 3450 50  0001 C CNN "Link"
-	1    2950 3450
+P 2500 3450
+F 0 "C4" H 2615 3496 50  0000 L CNN
+F 1 "10uF" H 2615 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2538 3300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 2500 3450 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 2500 3450 50  0001 C CNN "Link"
+	1    2500 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5B8A9F2E
-P 2950 3600
-F 0 "#PWR0106" H 2950 3350 50  0001 C CNN
-F 1 "GND" H 2955 3427 50  0000 C CNN
-F 2 "" H 2950 3600 50  0001 C CNN
-F 3 "" H 2950 3600 50  0001 C CNN
-	1    2950 3600
+P 2500 3600
+F 0 "#PWR0106" H 2500 3350 50  0001 C CNN
+F 1 "GND" H 2505 3427 50  0000 C CNN
+F 2 "" H 2500 3600 50  0001 C CNN
+F 3 "" H 2500 3600 50  0001 C CNN
+	1    2500 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 3300 3300 3300
+	2500 3300 2850 3300
 $Comp
 L power:VCC #PWR0107
 U 1 1 5B8AB487
-P 2250 3250
-F 0 "#PWR0107" H 2250 3100 50  0001 C CNN
-F 1 "VCC" H 2267 3423 50  0000 C CNN
-F 2 "" H 2250 3250 50  0001 C CNN
-F 3 "" H 2250 3250 50  0001 C CNN
-	1    2250 3250
+P 1800 3250
+F 0 "#PWR0107" H 1800 3100 50  0001 C CNN
+F 1 "VCC" H 1817 3423 50  0000 C CNN
+F 2 "" H 1800 3250 50  0001 C CNN
+F 3 "" H 1800 3250 50  0001 C CNN
+	1    1800 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2950 3300
 $Comp
 L Device:R R9
 U 1 1 5B8AB6B4
-P 3500 3500
-F 0 "R9" V 3500 3500 50  0000 C CNN
-F 1 "100k" V 3400 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 3500 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3500 3500 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100" V 3500 3500 50  0001 C CNN "Link"
-	1    3500 3500
+P 3050 3500
+F 0 "R9" V 3050 3500 50  0000 C CNN
+F 1 "100k" V 2950 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 3500 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3050 3500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100" V 3050 3500 50  0001 C CNN "Link"
+	1    3050 3500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3650 3600 3700 3600
+	2900 3600 2850 3600
 Wire Wire Line
-	3650 3500 3700 3500
+	2850 3600 2850 3500
+Connection ~ 2850 3300
 Wire Wire Line
-	3350 3600 3300 3600
+	2900 3500 2850 3500
+Connection ~ 2850 3500
 Wire Wire Line
-	3300 3600 3300 3500
-Connection ~ 3300 3300
-Wire Wire Line
-	3300 3300 3700 3300
-Wire Wire Line
-	3350 3500 3300 3500
-Connection ~ 3300 3500
-Wire Wire Line
-	3300 3500 3300 3300
+	2850 3500 2850 3300
 Wire Wire Line
 	4800 3400 5200 3400
 $Comp
@@ -428,11 +421,11 @@ F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_SDG Q1
+L Device:Q_NMOS_GDS Q1
 U 1 1 5B8B01E1
 P 5400 3400
 F 0 "Q1" H 5605 3446 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 5605 3355 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 5605 3355 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-264-3_Vertical" H 5600 3500 50  0001 C CNN
 F 3 "http://ixapps.ixys.com/DataSheet/DS100129A(IXFK-FX180N25T).pdf" H 5400 3400 50  0001 C CNN
 F 4 "200V" H 5400 3400 50  0001 C CNN "Voltage"
@@ -578,7 +571,7 @@ Connection ~ 3200 4150
 Wire Wire Line
 	3200 4150 3200 4200
 Wire Wire Line
-	2250 3300 2250 3250
+	1800 3300 1800 3250
 $Comp
 L power:GND #PWR0115
 U 1 1 5B8F4EB0
@@ -728,13 +721,13 @@ $EndComp
 $Comp
 L Device:R R10
 U 1 1 5F2F9FC0
-P 3500 3600
-F 0 "R10" V 3500 3600 50  0000 C CNN
-F 1 "100k" V 3600 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 3600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3500 3600 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100" V 3500 3600 50  0001 C CNN "Link"
-	1    3500 3600
+P 3050 3600
+F 0 "R10" V 3050 3600 50  0000 C CNN
+F 1 "100k" V 3150 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 3600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3050 3600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100" V 3050 3600 50  0001 C CNN "Link"
+	1    3050 3600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -767,31 +760,31 @@ $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5F304E8C
-P 2450 3600
-F 0 "#PWR0116" H 2450 3350 50  0001 C CNN
-F 1 "GND" H 2455 3427 50  0000 C CNN
-F 2 "" H 2450 3600 50  0001 C CNN
-F 3 "" H 2450 3600 50  0001 C CNN
-	1    2450 3600
+P 2000 3600
+F 0 "#PWR0116" H 2000 3350 50  0001 C CNN
+F 1 "GND" H 2005 3427 50  0000 C CNN
+F 2 "" H 2000 3600 50  0001 C CNN
+F 3 "" H 2000 3600 50  0001 C CNN
+	1    2000 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 3300 2450 3300
+	1800 3300 2000 3300
 $Comp
 L Device:CP C3
 U 1 1 5F305A50
-P 2450 3450
-F 0 "C3" H 2568 3496 50  0000 L CNN
-F 1 "100uF" H 2568 3405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 2488 3300 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157" H 2450 3450 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEU-FR1H101B/P15369CT-ND/3072249" H 2450 3450 50  0001 C CNN "Link"
-	1    2450 3450
+P 2000 3450
+F 0 "C3" H 2118 3496 50  0000 L CNN
+F 1 "100uF" H 2118 3405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 2038 3300 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157" H 2000 3450 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEU-FR1H101B/P15369CT-ND/3072249" H 2000 3450 50  0001 C CNN "Link"
+	1    2000 3450
 	1    0    0    -1  
 $EndComp
-Connection ~ 2450 3300
+Connection ~ 2000 3300
 Wire Wire Line
-	2450 3300 2950 3300
+	2000 3300 2500 3300
 Wire Wire Line
 	4250 1400 4700 1400
 $Comp
@@ -862,4 +855,89 @@ F 3 "" H 2900 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2900 3000 2900 2900
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 5F37466C
+P 1700 4350
+F 0 "J5" H 1700 4150 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1950 4050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1700 4350 50  0001 C CNN
+F 3 "~" H 1700 4350 50  0001 C CNN
+	1    1700 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J6
+U 1 1 5F376643
+P 1700 4950
+F 0 "J6" H 1700 4750 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1950 4650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1700 4950 50  0001 C CNN
+F 3 "~" H 1700 4950 50  0001 C CNN
+	1    1700 4950
+	-1   0    0    1   
+$EndComp
+Text GLabel 3500 3400 0    50   Input ~ 0
+~DONE~
+Connection ~ 2500 3300
+Wire Wire Line
+	2850 3300 3700 3300
+Wire Wire Line
+	3200 3500 3550 3500
+Wire Wire Line
+	3200 3600 3550 3600
+Wire Wire Line
+	3500 3400 3550 3400
+Wire Wire Line
+	3550 3400 3550 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 3700 3500
+Text GLabel 3500 3700 0    50   Input ~ 0
+~FAULT~
+Wire Wire Line
+	3500 3700 3550 3700
+Wire Wire Line
+	3550 3700 3550 3600
+Connection ~ 3550 3600
+Wire Wire Line
+	3550 3600 3700 3600
+Text GLabel 2000 4250 2    50   Input ~ 0
+~DONE~
+Text GLabel 2000 4850 2    50   Input ~ 0
+~FAULT~
+Wire Wire Line
+	1900 4250 2000 4250
+Wire Wire Line
+	1900 4850 2000 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5F3A1B16
+P 1950 4400
+F 0 "#PWR?" H 1950 4150 50  0001 C CNN
+F 1 "GND" H 1955 4227 50  0000 C CNN
+F 2 "" H 1950 4400 50  0001 C CNN
+F 3 "" H 1950 4400 50  0001 C CNN
+	1    1950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3A218D
+P 1950 5000
+F 0 "#PWR?" H 1950 4750 50  0001 C CNN
+F 1 "GND" H 1955 4827 50  0000 C CNN
+F 2 "" H 1950 5000 50  0001 C CNN
+F 3 "" H 1950 5000 50  0001 C CNN
+	1    1950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4350 1950 4350
+Wire Wire Line
+	1950 4350 1950 4400
+Wire Wire Line
+	1900 4950 1950 4950
+Wire Wire Line
+	1950 4950 1950 5000
 $EndSCHEMATC
