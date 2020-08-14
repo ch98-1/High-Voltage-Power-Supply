@@ -428,11 +428,11 @@ F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_SDG Q1
+L Device:Q_NMOS_GDS Q1
 U 1 1 5B8B01E1
 P 5400 3400
 F 0 "Q1" H 5605 3446 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 5605 3355 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 5605 3355 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-264-3_Vertical" H 5600 3500 50  0001 C CNN
 F 3 "http://ixapps.ixys.com/DataSheet/DS100129A(IXFK-FX180N25T).pdf" H 5400 3400 50  0001 C CNN
 F 4 "200V" H 5400 3400 50  0001 C CNN "Voltage"
