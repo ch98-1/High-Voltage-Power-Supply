@@ -503,6 +503,7 @@ F 0 "J3" H 9800 2600 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 10050 2500 50  0000 C CNN
 F 2 "Connector:Banana_Jack_2Pin" H 9800 2800 50  0001 C CNN
 F 3 "~" H 9800 2800 50  0001 C CNN
+F 4 "1000V" H 9800 2800 50  0001 C CNN "Voltage"
 	1    9800 2800
 	1    0    0    1   
 $EndComp
