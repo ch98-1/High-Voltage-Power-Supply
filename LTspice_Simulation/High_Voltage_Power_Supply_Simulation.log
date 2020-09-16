@@ -1,0 +1,30 @@
+Circuit: * C:\users\corwin\My Documents\ST\High-Voltage-Power-Supply\LTspice_Simulation\High_Voltage_Power_Supply_Simulation.asc
+
+WARNING: Node NC_04 is floating.
+WARNING: Node NC_05 is floating.
+WARNING: Node NC_06 is floating.
+
+WARNING: Less than two connections to node NC_03.  This node is used by M1.
+WARNING: Less than two connections to node NC_05.  This node is used by M1.
+Per .tran options, skipping operating point for transient analysis.
+Ignoring empty pin current: Ix(u1:17)
+Ignoring empty pin current: Ix(u1:19)
+
+Date: Mon Sep 14 19:17:28 2020
+Total elapsed time: 1992.520 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 89754214
+traniter = 89754214
+tranpoints = 21447431
+accept = 15561673
+rejected = 5885758
+matrix size = 102
+fillins = 7
+solver = Normal
+Thread vector: 28.9/17.4[4] 15.6/7.4[4] 2.7/2.4[2] 0.7/3.4[1]  2592/500
+Matrix Compiler1: 3.71 KB object code size  3.7/2.0/[1.5]
+Matrix Compiler2: 6.08 KB object code size  1.6/2.9/[1.0]
+
