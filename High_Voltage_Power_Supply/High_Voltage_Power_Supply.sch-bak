@@ -503,6 +503,7 @@ F 0 "J3" H 9800 2600 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 10050 2500 50  0000 C CNN
 F 2 "Connector:Banana_Jack_2Pin" H 9800 2800 50  0001 C CNN
 F 3 "~" H 9800 2800 50  0001 C CNN
+F 4 "1000V" H 9800 2800 50  0001 C CNN "Voltage"
 	1    9800 2800
 	1    0    0    1   
 $EndComp
@@ -524,8 +525,6 @@ Wire Wire Line
 Connection ~ 9350 2500
 Wire Wire Line
 	8850 2700 8850 2400
-Wire Wire Line
-	5000 4300 5500 4300
 Connection ~ 5000 4300
 Wire Wire Line
 	5000 4300 5000 4450
@@ -537,8 +536,6 @@ Wire Wire Line
 Wire Wire Line
 	9350 4800 9350 5000
 Connection ~ 5000 5000
-Wire Wire Line
-	5000 5000 5500 5000
 Wire Wire Line
 	4250 2700 4250 2000
 Wire Wire Line
@@ -591,12 +588,6 @@ Wire Wire Line
 	3500 3000 3200 3000
 Wire Wire Line
 	3200 3000 3200 3050
-Connection ~ 5500 4300
-Wire Wire Line
-	5500 4300 9350 4300
-Connection ~ 5500 5000
-Wire Wire Line
-	5500 5000 9350 5000
 Text GLabel 6000 1400 2    50   Input ~ 0
 Vtrans
 Wire Wire Line
@@ -646,23 +637,6 @@ Wire Wire Line
 	7600 1700 7900 1700
 Wire Wire Line
 	8200 1700 8850 1700
-$Comp
-L Jumper:Jumper_2_Open JP1
-U 1 1 5F2F41C4
-P 5500 4650
-F 0 "JP1" V 5454 4748 50  0000 L CNN
-F 1 "Jumper_2_Open" V 5545 4748 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 4650 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 5500 4650 50  0001 C CNN
-F 4 "Short this jumper to run device in constant capacitor charging mode" V 5500 4650 50  0001 C CNN "Note"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0-0GCT-ND/134711" V 5500 4650 50  0001 C CNN "Link"
-	1    5500 4650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5500 4450 5500 4300
-Wire Wire Line
-	5500 4850 5500 5000
 Wire Wire Line
 	5500 3650 5700 3650
 Wire Wire Line
@@ -940,4 +914,8 @@ Wire Wire Line
 	1900 4950 1950 4950
 Wire Wire Line
 	1950 4950 1950 5000
+Wire Wire Line
+	5000 4300 9350 4300
+Wire Wire Line
+	5000 5000 9350 5000
 $EndSCHEMATC

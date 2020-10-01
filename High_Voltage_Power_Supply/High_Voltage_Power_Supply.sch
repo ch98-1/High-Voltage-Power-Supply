@@ -180,22 +180,8 @@ F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    5100 2950
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R2
-U 1 1 5B8A6A21
-P 5100 3100
-F 0 "R2" V 5100 3100 50  0000 C CNN
-F 1 "80.6k" V 5000 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 3100 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5100 3100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB8062V/P80-6KDBCT-ND/3076062" V 5100 3100 50  0001 C CNN "Link"
-	1    5100 3100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4800 2950 4950 2950
-Wire Wire Line
-	4800 3100 4950 3100
 $Comp
 L Device:C C4
 U 1 1 5B8A9F27
@@ -298,20 +284,6 @@ Connection ~ 3200 3900
 Wire Wire Line
 	3200 3900 3200 3950
 $Comp
-L Device:R R4
-U 1 1 5B8C18DC
-P 4450 4850
-F 0 "R4" V 4450 4850 50  0000 C CNN
-F 1 "681" V 4350 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 4850 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4450 4850 50  0001 C CNN
-F 4 "use 681 if using Vout comparitor as backup protection while in regulation mode, 787 if using Vout comparitor directly as trip in chage mode " V 4450 4850 50  0001 C CNN "Note"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB6810V/P681DBCT-ND/3076036" V 4450 4850 50  0001 C CNN "681 Link"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB7870V/P787DBCT-ND/3076056" V 4450 4850 50  0001 C CNN "787 Link"
-	1    4450 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0110
 U 1 1 5B8C1AD0
 P 4050 5150
@@ -325,12 +297,8 @@ $EndComp
 Wire Wire Line
 	4050 4600 4050 5000
 Wire Wire Line
-	4050 5000 4450 5000
-Wire Wire Line
 	4050 5000 4050 5150
 Connection ~ 4050 5000
-Wire Wire Line
-	4450 4700 4450 4600
 $Comp
 L Device:C C2
 U 1 1 5B8CBDE2
@@ -343,7 +311,6 @@ F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM1885C1H103J
 	1    5000 4600
 	1    0    0    -1  
 $EndComp
-Connection ~ 4450 5000
 Wire Wire Line
 	5000 4750 5000 5000
 $Comp
@@ -436,13 +403,6 @@ $EndComp
 Wire Wire Line
 	5250 2950 5500 2950
 Wire Wire Line
-	5500 2950 5500 3100
-Wire Wire Line
-	5250 3100 5500 3100
-Connection ~ 5500 3100
-Wire Wire Line
-	5500 3100 5500 3200
-Wire Wire Line
 	5900 2950 5500 2950
 Connection ~ 5500 2950
 Wire Wire Line
@@ -525,8 +485,6 @@ Wire Wire Line
 Connection ~ 9350 2500
 Wire Wire Line
 	8850 2700 8850 2400
-Wire Wire Line
-	5000 4300 5500 4300
 Connection ~ 5000 4300
 Wire Wire Line
 	5000 4300 5000 4450
@@ -534,12 +492,8 @@ Connection ~ 9350 4300
 Wire Wire Line
 	9350 4300 9350 4500
 Wire Wire Line
-	4450 5000 5000 5000
-Wire Wire Line
 	9350 4800 9350 5000
 Connection ~ 5000 5000
-Wire Wire Line
-	5000 5000 5500 5000
 Wire Wire Line
 	4250 2700 4250 2000
 Wire Wire Line
@@ -592,12 +546,6 @@ Wire Wire Line
 	3500 3000 3200 3000
 Wire Wire Line
 	3200 3000 3200 3050
-Connection ~ 5500 4300
-Wire Wire Line
-	5500 4300 9350 4300
-Connection ~ 5500 5000
-Wire Wire Line
-	5500 5000 9350 5000
 Text GLabel 6000 1400 2    50   Input ~ 0
 Vtrans
 Wire Wire Line
@@ -647,23 +595,6 @@ Wire Wire Line
 	7600 1700 7900 1700
 Wire Wire Line
 	8200 1700 8850 1700
-$Comp
-L Jumper:Jumper_2_Open JP1
-U 1 1 5F2F41C4
-P 5500 4650
-F 0 "JP1" V 5454 4748 50  0000 L CNN
-F 1 "Jumper_2_Open" V 5545 4748 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 4650 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 5500 4650 50  0001 C CNN
-F 4 "Short this jumper to run device in constant capacitor charging mode" V 5500 4650 50  0001 C CNN "Note"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0-0GCT-ND/134711" V 5500 4650 50  0001 C CNN "Link"
-	1    5500 4650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5500 4450 5500 4300
-Wire Wire Line
-	5500 4850 5500 5000
 Wire Wire Line
 	5500 3650 5700 3650
 Wire Wire Line
@@ -941,4 +872,32 @@ Wire Wire Line
 	1900 4950 1950 4950
 Wire Wire Line
 	1950 4950 1950 5000
+Wire Wire Line
+	5000 4300 9350 4300
+Wire Wire Line
+	5000 5000 9350 5000
+Wire Wire Line
+	4050 5000 4450 5000
+Wire Wire Line
+	4450 4600 4450 5000
+Connection ~ 4450 5000
+Wire Wire Line
+	4450 5000 5000 5000
+Wire Wire Line
+	5500 2950 5500 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5F796AD5
+P 5050 3150
+F 0 "#PWR?" H 5050 2900 50  0001 C CNN
+F 1 "GND" H 5055 2977 50  0000 C CNN
+F 2 "" H 5050 3150 50  0001 C CNN
+F 3 "" H 5050 3150 50  0001 C CNN
+	1    5050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3100 5050 3150
+Wire Wire Line
+	4800 3100 5050 3100
 $EndSCHEMATC
