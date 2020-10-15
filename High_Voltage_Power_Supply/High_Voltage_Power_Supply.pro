@@ -1,4 +1,4 @@
-update=Thu 01 Oct 2020 03:31:26 PM PDT
+update=Tue 13 Oct 2020 03:39:31 AM PDT
 version=1
 last_client=kicad
 [general]
@@ -40,6 +40,7 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.254
 TrackWidth2=0.762
+TrackWidth3=1
 ViaDiameter1=0.8128
 ViaDrill1=0.4064
 dPairWidth1=0.2032
@@ -249,7 +250,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=High Current
-Clearance=0.127
+Clearance=0.15
 TrackWidth=0.381
 ViaDiameter=0.8128
 ViaDrill=0.4064
