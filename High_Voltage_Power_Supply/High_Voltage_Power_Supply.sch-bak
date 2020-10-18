@@ -872,32 +872,6 @@ F 3 "" H 8850 7950 50  0001 C CNN
 	1    8850 7950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5F8F4FB3
-P 9350 9900
-F 0 "R?" V 9350 9900 50  0000 C CNN
-F 1 "4.87k" V 9250 9900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 9280 9900 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9350 9900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8ENF4871V/P4-87KFCT-ND/89784" V 9350 9900 50  0001 C CNN "Link"
-F 5 "0.25W" V 9350 9900 50  0001 C CNN "Power"
-	1    9350 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F8F4FBB
-P 9350 8750
-F 0 "R?" V 9350 8750 50  0000 C CNN
-F 1 "2M" V 9250 8750 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 9280 8750 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9350 8750 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8ENF2004V/P2-00MFCT-ND/282748" V 9350 8750 50  0001 C CNN "Link"
-F 5 "0.25W" V 9350 8750 50  0001 C CNN "Power"
-	1    9350 8750
-	1    0    0    -1  
-$EndComp
 Connection ~ 4250 6650
 Wire Wire Line
 	4250 6950 4250 6650
@@ -1184,17 +1158,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 8200 5500 8200
 Connection ~ 5500 8200
-Wire Wire Line
-	5000 9450 5000 9550
-Wire Wire Line
-	9350 9300 9350 9550
 Connection ~ 8850 6950
 Wire Wire Line
-	8850 6950 9350 6950
-Wire Wire Line
 	8850 7100 8850 6950
-Wire Wire Line
-	9350 6950 9350 7750
 $Comp
 L Device:D_ALT D?
 U 1 1 5F8F5097
@@ -1207,41 +1173,12 @@ F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/NDSH25170A/NDSH2
 	1    8050 6950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9350 7750 9600 7750
-$Comp
-L power:GND #PWR?
-U 1 1 5F8F509E
-P 9600 8250
-F 0 "#PWR?" H 9600 8000 50  0001 C CNN
-F 1 "GND" H 9605 8077 50  0000 C CNN
-F 2 "" H 9600 8250 50  0001 C CNN
-F 3 "" H 9600 8250 50  0001 C CNN
-	1    9600 8250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 7750 9600 7950
-Wire Wire Line
-	9600 8250 9600 8050
-$Comp
-L Connector:Conn_01x02_Female J?
-U 1 1 5F8F50A7
-P 9800 8050
-F 0 "J?" H 9800 7850 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 10050 7750 50  0000 C CNN
-F 2 "Connector:Banana_Jack_2Pin" H 9800 8050 50  0001 C CNN
-F 3 "~" H 9800 8050 50  0001 C CNN
-F 4 "1000V" H 9800 8050 50  0001 C CNN "Voltage"
-	1    9800 8050
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5F8F50AF
 P 8850 7250
 F 0 "C?" H 8965 7296 50  0000 L CNN
-F 1 "2200pF" H 8965 7205 50  0000 L CNN
+F 1 "5uF" H 8965 7205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 8888 7100 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GR443QR73D222KW01-01.pdf" H 8850 7250 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GR443QR73D222KW01L/490-6107-1-ND/3845307" H 8850 7250 50  0001 C CNN "Link"
@@ -1250,19 +1187,7 @@ F 5 ">1200V" H 8850 7250 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9350 8600 9350 7750
-Connection ~ 9350 7750
-Wire Wire Line
 	8850 7950 8850 7650
-Connection ~ 5000 9550
-Wire Wire Line
-	5000 9550 5000 9700
-Connection ~ 9350 9550
-Wire Wire Line
-	9350 9550 9350 9750
-Wire Wire Line
-	9350 10050 9350 10250
-Connection ~ 5000 10250
 Wire Wire Line
 	4250 7950 4250 7250
 Wire Wire Line
@@ -1392,21 +1317,6 @@ F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    3550 9450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9350 8900 9350 9000
-$Comp
-L Device:R R?
-U 1 1 5F8F512A
-P 9350 9150
-F 0 "R?" V 9350 9150 50  0000 C CNN
-F 1 "2M" V 9250 9150 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 9280 9150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9350 9150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8ENF2004V/P2-00MFCT-ND/282748" V 9350 9150 50  0001 C CNN "Link"
-F 5 "0.25W" V 9350 9150 50  0001 C CNN "Power"
-	1    9350 9150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F8F5130
@@ -1520,18 +1430,18 @@ Connection ~ 2500 8550
 Wire Wire Line
 	2850 8550 3700 8550
 Wire Wire Line
-	3200 8850 3550 8850
-Text GLabel 3500 8950 0    50   Input ~ 0
-~FAULT~
+	3200 8850 3650 8850
+Text GLabel 3600 8950 0    50   Input ~ 0
+~FAULT_IGN~
 Wire Wire Line
-	3500 8950 3550 8950
+	3600 8950 3650 8950
 Wire Wire Line
-	3550 8950 3550 8850
-Connection ~ 3550 8850
+	3650 8950 3650 8850
+Connection ~ 3650 8850
 Wire Wire Line
-	3550 8850 3700 8850
+	3650 8850 3700 8850
 Text GLabel 2700 10050 2    50   Input ~ 0
-~FAULT~
+~FAULT_IGN~
 Wire Wire Line
 	2600 10050 2700 10050
 $Comp
@@ -1549,10 +1459,6 @@ Wire Wire Line
 	2600 10150 2650 10150
 Wire Wire Line
 	2650 10150 2650 10200
-Wire Wire Line
-	5000 9550 9350 9550
-Wire Wire Line
-	5000 10250 9350 10250
 Wire Wire Line
 	4050 10250 4450 10250
 Wire Wire Line
@@ -1618,4 +1524,162 @@ Wire Wire Line
 Connection ~ 6300 7100
 Wire Wire Line
 	6300 7100 6300 7200
+Wire Wire Line
+	5000 9450 5000 9550
+Wire Wire Line
+	5000 9550 5000 9700
+Connection ~ 5000 9550
+Connection ~ 5000 10250
+$Comp
+L Device:R R?
+U 1 1 5F8F4FB3
+P 9350 9900
+F 0 "R?" V 9350 9900 50  0000 C CNN
+F 1 "4.87k" V 9250 9900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9280 9900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9350 9900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8ENF4871V/P4-87KFCT-ND/89784" V 9350 9900 50  0001 C CNN "Link"
+F 5 "0.25W" V 9350 9900 50  0001 C CNN "Power"
+	1    9350 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8F4FBB
+P 9350 8750
+F 0 "R?" V 9350 8750 50  0000 C CNN
+F 1 "2M" V 9250 8750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9280 8750 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9350 8750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8ENF2004V/P2-00MFCT-ND/282748" V 9350 8750 50  0001 C CNN "Link"
+F 5 "0.25W" V 9350 8750 50  0001 C CNN "Power"
+	1    9350 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8F509E
+P 10500 8250
+F 0 "#PWR?" H 10500 8000 50  0001 C CNN
+F 1 "GND" H 10505 8077 50  0000 C CNN
+F 2 "" H 10500 8250 50  0001 C CNN
+F 3 "" H 10500 8250 50  0001 C CNN
+	1    10500 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 7750 10500 7950
+Wire Wire Line
+	10500 8250 10500 8050
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5F8F50A7
+P 10700 8050
+F 0 "J?" H 10700 7850 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 10950 7750 50  0000 C CNN
+F 2 "Connector:Banana_Jack_2Pin" H 10700 8050 50  0001 C CNN
+F 3 "~" H 10700 8050 50  0001 C CNN
+F 4 "1000V" H 10700 8050 50  0001 C CNN "Voltage"
+	1    10700 8050
+	1    0    0    1   
+$EndComp
+Connection ~ 9350 9550
+Wire Wire Line
+	9350 9550 9350 9750
+Wire Wire Line
+	9350 10050 9350 10250
+Wire Wire Line
+	5000 9550 9350 9550
+Wire Wire Line
+	5000 10250 9350 10250
+Wire Wire Line
+	8850 6950 9350 6950
+Wire Wire Line
+	9350 6950 9350 7750
+Wire Wire Line
+	9600 7750 9350 7750
+Connection ~ 9350 7750
+Wire Wire Line
+	9350 7750 9350 8600
+Wire Wire Line
+	10000 7750 10500 7750
+Wire Wire Line
+	9350 8900 9350 9550
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5F9D050D
+P 6750 6050
+F 0 "J?" H 6750 5850 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 7000 5750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6750 6050 50  0001 C CNN
+F 3 "~" H 6750 6050 50  0001 C CNN
+	1    6750 6050
+	-1   0    0    1   
+$EndComp
+Text GLabel 7050 5950 2    50   Input ~ 0
+FIRE
+Wire Wire Line
+	6950 5950 7050 5950
+$Comp
+L power:GND #PWR?
+U 1 1 5F9D0515
+P 7000 6100
+F 0 "#PWR?" H 7000 5850 50  0001 C CNN
+F 1 "GND" H 7005 5927 50  0000 C CNN
+F 2 "" H 7000 6100 50  0001 C CNN
+F 3 "" H 7000 6100 50  0001 C CNN
+	1    7000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 6050 7000 6050
+Wire Wire Line
+	7000 6050 7000 6100
+Text GLabel 9850 8700 2    50   Input ~ 0
+FIRE
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5F93A752
+P 9800 7850
+F 0 "Q?" H 10005 7896 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 10005 7805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-264-3_Vertical" H 10000 7950 50  0001 C CNN
+F 3 "http://ixapps.ixys.com/DataSheet/DS100129A(IXFK-FX180N25T).pdf" H 9800 7850 50  0001 C CNN
+F 4 "200V" H 9800 7850 50  0001 C CNN "Voltage"
+F 5 "https://www.digikey.com/product-detail/en/ixys/IXFK180N25T/IXFK180N25T-ND/2126319" H 9800 7850 50  0001 C CNN "Link"
+	1    9800 7850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5FA1B20A
+P 6750 5300
+F 0 "J?" H 6750 5100 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 7000 5000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6750 5300 50  0001 C CNN
+F 3 "~" H 6750 5300 50  0001 C CNN
+	1    6750 5300
+	-1   0    0    1   
+$EndComp
+Text GLabel 7050 5200 2    50   Input ~ 0
+Charged
+Wire Wire Line
+	6950 5200 7050 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5FA1B212
+P 7000 5350
+F 0 "#PWR?" H 7000 5100 50  0001 C CNN
+F 1 "GND" H 7005 5177 50  0000 C CNN
+F 2 "" H 7000 5350 50  0001 C CNN
+F 3 "" H 7000 5350 50  0001 C CNN
+	1    7000 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5300 7000 5300
+Wire Wire Line
+	7000 5300 7000 5350
+Text GLabel 9850 8950 2    50   Input ~ 0
+Charged
 $EndSCHEMATC
