@@ -1065,8 +1065,8 @@ P 8850 7250
 F 0 "C2" H 8965 7296 50  0000 L CNN
 F 1 "5uF" H 8965 7205 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4" H 8888 7100 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/B32774x,X,Y,Z_Series_DS.pdf" H 8850 7250 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B32774X1505K000/10468636" H 8850 7250 50  0001 C CNN "Link"
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/MKP_B32774_778.pdf" H 8850 7250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B32774D1505K000/1884951" H 8850 7250 50  0001 C CNN "Link"
 F 5 ">600V" H 8850 7250 50  0001 C CNN "Voltage"
 	1    8850 7250
 	1    0    0    -1  

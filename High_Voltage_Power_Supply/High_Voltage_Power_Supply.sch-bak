@@ -1684,6 +1684,7 @@ F 0 "U5" H 10300 4500 50  0000 L CNN
 F 1 "ADCMP356" H 10150 4400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:Analog_KS-4" H 9950 3850 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf" H 10100 4450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/analog-devices-inc/ADCMP356YKSZ-REEL7/1218177" H 9950 4250 50  0001 C CNN "Link"
 	1    9950 4250
 	1    0    0    -1  
 $EndComp
