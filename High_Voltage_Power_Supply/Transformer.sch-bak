@@ -54,12 +54,12 @@ Wire Wire Line
 Wire Wire Line
 	7500 1500 8000 1500
 $Comp
-L High_Voltage_Power_Supply:GA3460-BL TR3
+L High_Voltage_Power_Supply:GA3460-BL TR1
 U 1 1 5F68609E
 P 4100 3500
-AR Path="/5F5CFB04/5F68609E" Ref="TR3"  Part="1" 
+AR Path="/5F5CFB04/5F68609E" Ref="TR1"  Part="1" 
 AR Path="/5F8F508C/5F68609E" Ref="TR?"  Part="1" 
-F 0 "TR3" H 4057 2785 50  0000 C CNN
+F 0 "TR1" H 4057 2785 50  0000 C CNN
 F 1 "GA3460-BL" H 4057 2876 50  0000 C CNN
 F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 4150 2800 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/597/ga3459-463457.pdf" H 4000 3500 50  0001 C CNN
@@ -69,20 +69,6 @@ F 4 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRI
 $EndComp
 Wire Wire Line
 	3500 4000 3500 4100
-$Comp
-L High_Voltage_Power_Supply:GA3460-BL TR4
-U 1 1 5F6896C3
-P 6600 3500
-AR Path="/5F5CFB04/5F6896C3" Ref="TR4"  Part="1" 
-AR Path="/5F8F508C/5F6896C3" Ref="TR?"  Part="1" 
-F 0 "TR4" H 6557 2785 50  0000 C CNN
-F 1 "GA3460-BL" H 6557 2876 50  0000 C CNN
-F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 6650 2800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/597/ga3459-463457.pdf" H 6500 3500 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" H 6600 3500 50  0001 C CNN "Link"
-	1    6600 3500
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	6000 4000 6000 4100
 Wire Wire Line
@@ -137,4 +123,18 @@ Wire Wire Line
 Connection ~ 6000 3000
 Wire Wire Line
 	6000 2600 6000 3000
+$Comp
+L High_Voltage_Power_Supply:GA3460-BL TR2
+U 1 1 5F6896C3
+P 6600 3500
+AR Path="/5F5CFB04/5F6896C3" Ref="TR2"  Part="1" 
+AR Path="/5F8F508C/5F6896C3" Ref="TR?"  Part="1" 
+F 0 "TR2" H 6557 2785 50  0000 C CNN
+F 1 "GA3460-BL" H 6557 2876 50  0000 C CNN
+F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 6650 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/597/ga3459-463457.pdf" H 6500 3500 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Coilcraft/GA3460-BL?qs=ZYnrCdKdyeeqpRItZMyzHA%3D%3D" H 6600 3500 50  0001 C CNN "Link"
+	1    6600 3500
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
