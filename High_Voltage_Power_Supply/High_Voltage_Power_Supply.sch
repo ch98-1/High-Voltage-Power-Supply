@@ -1379,18 +1379,16 @@ $EndComp
 $Comp
 L power:GND #PWR0131
 U 1 1 5F8F509E
-P 10500 8250
-F 0 "#PWR0131" H 10500 8000 50  0001 C CNN
-F 1 "GND" H 10505 8077 50  0000 C CNN
-F 2 "" H 10500 8250 50  0001 C CNN
-F 3 "" H 10500 8250 50  0001 C CNN
-	1    10500 8250
+P 10600 8700
+F 0 "#PWR0131" H 10600 8450 50  0001 C CNN
+F 1 "GND" H 10605 8527 50  0000 C CNN
+F 2 "" H 10600 8700 50  0001 C CNN
+F 3 "" H 10600 8700 50  0001 C CNN
+	1    10600 8700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10500 7750 10500 7950
-Wire Wire Line
-	10500 8250 10500 8050
 $Comp
 L Connector:Conn_01x02_Female J3
 U 1 1 5F8F50A7
@@ -1416,13 +1414,9 @@ Wire Wire Line
 	8850 6950 9350 6950
 Wire Wire Line
 	9350 6950 9350 7750
-Wire Wire Line
-	9600 7750 9350 7750
 Connection ~ 9350 7750
 Wire Wire Line
 	9350 7750 9350 8600
-Wire Wire Line
-	10000 7750 10500 7750
 Wire Wire Line
 	9350 8900 9350 9550
 Text GLabel 13400 4550 2    50   Input ~ 0
@@ -1431,8 +1425,6 @@ Text GLabel 10400 10300 2    50   Input ~ 0
 FIRE
 Text GLabel 14700 5950 0    50   Input ~ 0
 Charged
-Wire Wire Line
-	9800 8700 9800 8050
 $Comp
 L Driver_FET:ZXGD3004E6 U6
 U 1 1 5FAF1BB9
@@ -1460,8 +1452,6 @@ Wire Wire Line
 Connection ~ 10350 10200
 Wire Wire Line
 	10400 8700 10400 8800
-Wire Wire Line
-	9800 8700 10200 8700
 Wire Wire Line
 	10200 8800 10200 8700
 Connection ~ 10200 8700
@@ -1500,15 +1490,15 @@ Wire Wire Line
 $Comp
 L Device:Q_NIGBT_GCE Q3
 U 1 1 5F9A2B3D
-P 9800 7850
-F 0 "Q3" V 10128 7850 50  0000 C CNN
-F 1 "Q_NIGBT_GCE" V 10037 7850 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 10000 7950 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/discrete_igbts/littelfuse_discrete_igbts_xpt_ixy_140n90c3_datasheet.pdf.pdf" H 9800 7850 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/ixys/IXYX140N90C3/4321711" V 9800 7850 50  0001 C CNN "Link"
-F 5 ">600V" V 9800 7850 50  0001 C CNN "Voltage "
-	1    9800 7850
-	0    -1   -1   0   
+P 10400 8350
+F 0 "Q3" V 10728 8350 50  0000 C CNN
+F 1 "Q_NIGBT_GCE" V 10637 8350 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 10600 8450 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/discrete_igbts/littelfuse_discrete_igbts_xpt_ixy_140n90c3_datasheet.pdf.pdf" H 10400 8350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/ixys/IXYX140N90C3/4321711" V 10400 8350 50  0001 C CNN "Link"
+F 5 ">600V" V 10400 8350 50  0001 C CNN "Voltage "
+	1    10400 8350
+	1    0    0    -1  
 $EndComp
 $Comp
 L High_Voltage_Power_Supply:MC14504B U3
@@ -1608,12 +1598,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0139
 U 1 1 5FB9296F
-P 13950 6250
-F 0 "#PWR0139" H 13950 6100 50  0001 C CNN
-F 1 "+5V" H 13965 6423 50  0000 C CNN
-F 2 "" H 13950 6250 50  0001 C CNN
-F 3 "" H 13950 6250 50  0001 C CNN
-	1    13950 6250
+P 14150 6150
+F 0 "#PWR0139" H 14150 6000 50  0001 C CNN
+F 1 "+5V" H 14165 6323 50  0000 C CNN
+F 2 "" H 14150 6150 50  0001 C CNN
+F 3 "" H 14150 6150 50  0001 C CNN
+	1    14150 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1730,7 +1720,7 @@ $EndComp
 Wire Wire Line
 	9250 4550 9250 4600
 Wire Wire Line
-	9250 4250 9750 4250
+	9250 4250 9500 4250
 $Comp
 L Device:R R11
 U 1 1 5FC5DAB2
@@ -1820,24 +1810,17 @@ Wire Wire Line
 Wire Wire Line
 	14650 6450 14650 6550
 Connection ~ 14650 6550
-Wire Wire Line
-	14700 6250 13950 6250
 $Comp
 L power:VCC #PWR0146
 U 1 1 600FC5B9
-P 14100 6150
-F 0 "#PWR0146" H 14100 6000 50  0001 C CNN
-F 1 "VCC" H 14117 6323 50  0000 C CNN
-F 2 "" H 14100 6150 50  0001 C CNN
-F 3 "" H 14100 6150 50  0001 C CNN
-	1    14100 6150
+P 13950 6250
+F 0 "#PWR0146" H 13950 6100 50  0001 C CNN
+F 1 "VCC" H 13967 6423 50  0000 C CNN
+F 2 "" H 13950 6250 50  0001 C CNN
+F 3 "" H 13950 6250 50  0001 C CNN
+	1    13950 6250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14700 6150 14700 6050
-Wire Wire Line
-	14700 6150 14100 6150
-Connection ~ 14700 6150
 Text GLabel 14150 5850 0    50   Input ~ 0
 ~FAULT_IGN_5V~
 Wire Wire Line
@@ -1846,16 +1829,10 @@ Text GLabel 14600 5750 0    50   Input ~ 0
 ~FAULT_5V~
 Wire Wire Line
 	14600 5750 14700 5750
-Text GLabel 14150 5650 0    50   Input ~ 0
-CHARGE_IGN
 Wire Wire Line
 	14700 5650 14150 5650
-Text GLabel 14550 5550 0    50   Input ~ 0
-CHARGE
 Wire Wire Line
 	14700 5550 14550 5550
-Text GLabel 14550 5450 0    50   Input ~ 0
-FIRE
 Wire Wire Line
 	14550 5450 14700 5450
 Wire Wire Line
@@ -1892,8 +1869,103 @@ F 1 "GA3460-BL" H 6857 8034 50  0000 C CNN
 F 2 "High_Voltage_Power_Supply:Transformer_Coilcraft_GA3460-BL" H 6950 6700 50  0001 C CNN
 F 3 "" H 6800 7400 50  0001 C CNN
 	1    6900 7400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5400 3550 5600 3550
+Wire Wire Line
+	9350 7750 10500 7750
+Wire Wire Line
+	10500 8150 10500 8050
+Wire Wire Line
+	10200 8350 10200 8700
+Wire Wire Line
+	10500 8550 10500 8600
+Wire Wire Line
+	10500 8600 10600 8600
+Wire Wire Line
+	10600 8600 10600 8700
+$Comp
+L Device:C C17
+U 1 1 5FF9BF8C
+P 9500 4400
+F 0 "C17" H 9615 4446 50  0000 L CNN
+F 1 "10nF" H 9615 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9538 4250 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us" H 9500 4400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM1885C1H103JA01D/490-9666-1-ND/4934772" H 9500 4400 50  0001 C CNN "Link"
+	1    9500 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 9500 4250
+Wire Wire Line
+	9500 4250 9750 4250
+$Comp
+L power:GND #PWR0147
+U 1 1 5FFA0BA9
+P 9500 4650
+F 0 "#PWR0147" H 9500 4400 50  0001 C CNN
+F 1 "GND" H 9505 4477 50  0000 C CNN
+F 2 "" H 9500 4650 50  0001 C CNN
+F 3 "" H 9500 4650 50  0001 C CNN
+	1    9500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4650 9500 4550
+Text GLabel 14150 5650 0    50   Input ~ 0
+CHARGE_IGN_5V
+Text GLabel 14550 5550 0    50   Input ~ 0
+CHARGE_5V
+Text GLabel 14550 5450 0    50   Input ~ 0
+FIRE_5V
+Wire Wire Line
+	14700 6150 14700 6250
+Wire Wire Line
+	14700 6250 13950 6250
+Connection ~ 14700 6250
+Wire Wire Line
+	14700 6050 14300 6050
+Wire Wire Line
+	14300 6050 14300 6150
+Wire Wire Line
+	14300 6150 14150 6150
+$Comp
+L Device:C C18
+U 1 1 60088DD7
+P 11200 4250
+F 0 "C18" H 11315 4296 50  0000 L CNN
+F 1 "10uF" H 11315 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 11238 4100 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 11200 4250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 11200 4250 50  0001 C CNN "Link"
+	1    11200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60091D0B
+P 11200 4050
+F 0 "#PWR?" H 11200 3900 50  0001 C CNN
+F 1 "+5V" H 11215 4223 50  0000 C CNN
+F 2 "" H 11200 4050 50  0001 C CNN
+F 3 "" H 11200 4050 50  0001 C CNN
+	1    11200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6009217E
+P 11200 4450
+F 0 "#PWR?" H 11200 4200 50  0001 C CNN
+F 1 "GND" H 11205 4277 50  0000 C CNN
+F 2 "" H 11200 4450 50  0001 C CNN
+F 3 "" H 11200 4450 50  0001 C CNN
+	1    11200 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 4450 11200 4400
+Wire Wire Line
+	11200 4100 11200 4050
 $EndSCHEMATC
