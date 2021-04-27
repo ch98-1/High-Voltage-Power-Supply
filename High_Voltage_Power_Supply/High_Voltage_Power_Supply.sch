@@ -2937,4 +2937,136 @@ F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    2550 8700
 	0    1    1    0   
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60886234
+P 800 4450
+F 0 "H3" H 900 4499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 4408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 4450 50  0001 C CNN
+F 3 "~" H 800 4450 50  0001 C CNN
+	1    800  4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0179
+U 1 1 608867CD
+P 800 4550
+F 0 "#PWR0179" H 800 4300 50  0001 C CNN
+F 1 "GND" H 805 4377 50  0000 C CNN
+F 2 "" H 800 4550 50  0001 C CNN
+F 3 "" H 800 4550 50  0001 C CNN
+	1    800  4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 608D3F97
+P 800 5000
+F 0 "H4" H 900 5049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 4958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 5000 50  0001 C CNN
+F 3 "~" H 800 5000 50  0001 C CNN
+	1    800  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0180
+U 1 1 608D3F9D
+P 800 5100
+F 0 "#PWR0180" H 800 4850 50  0001 C CNN
+F 1 "GND" H 805 4927 50  0000 C CNN
+F 2 "" H 800 5100 50  0001 C CNN
+F 3 "" H 800 5100 50  0001 C CNN
+	1    800  5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 608F41BF
+P 800 5550
+F 0 "H5" H 900 5599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 5508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 5550 50  0001 C CNN
+F 3 "~" H 800 5550 50  0001 C CNN
+	1    800  5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0181
+U 1 1 608F41C5
+P 800 5650
+F 0 "#PWR0181" H 800 5400 50  0001 C CNN
+F 1 "GND" H 805 5477 50  0000 C CNN
+F 2 "" H 800 5650 50  0001 C CNN
+F 3 "" H 800 5650 50  0001 C CNN
+	1    800  5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 60914351
+P 800 6100
+F 0 "H6" H 900 6149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 6058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 6100 50  0001 C CNN
+F 3 "~" H 800 6100 50  0001 C CNN
+	1    800  6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0182
+U 1 1 60914357
+P 800 6200
+F 0 "#PWR0182" H 800 5950 50  0001 C CNN
+F 1 "GND" H 805 6027 50  0000 C CNN
+F 2 "" H 800 6200 50  0001 C CNN
+F 3 "" H 800 6200 50  0001 C CNN
+	1    800  6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6093532E
+P 800 3900
+F 0 "H2" H 900 3949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 3858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 3900 50  0001 C CNN
+F 3 "~" H 800 3900 50  0001 C CNN
+	1    800  3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 60935F7D
+P 800 3350
+F 0 "H1" H 900 3399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 3308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 3350 50  0001 C CNN
+F 3 "~" H 800 3350 50  0001 C CNN
+	1    800  3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0183
+U 1 1 6093E4BD
+P 800 4000
+F 0 "#PWR0183" H 800 3750 50  0001 C CNN
+F 1 "GND" H 805 3827 50  0000 C CNN
+F 2 "" H 800 4000 50  0001 C CNN
+F 3 "" H 800 4000 50  0001 C CNN
+	1    800  4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0184
+U 1 1 609473E6
+P 800 3450
+F 0 "#PWR0184" H 800 3200 50  0001 C CNN
+F 1 "GND" H 805 3277 50  0000 C CNN
+F 2 "" H 800 3450 50  0001 C CNN
+F 3 "" H 800 3450 50  0001 C CNN
+	1    800  3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
