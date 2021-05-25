@@ -84,6 +84,7 @@ F 1 "10uF" H 4665 955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4588 850 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106KE05-01.pdf" H 4550 1000 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC72A106KE05L/490-16266-1-ND/7319356" H 4550 1000 50  0001 C CNN "Link"
+F 5 ">100V" H 4550 1000 50  0001 C CNN "Voltage"
 	1    4550 1000
 	1    0    0    -1  
 $EndComp
@@ -94,8 +95,8 @@ P 3650 1300
 F 0 "R23" H 3720 1346 50  0000 L CNN
 F 1 "80.6k" H 3720 1255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 1300 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3650 1300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB8062V/P80-6KDBCT-ND/3076062" H 3650 1300 50  0001 C CNN "Link"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 3650 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RT0603BRE0780K6L/1073164" H 3650 1300 50  0001 C CNN "Link"
 	1    3650 1300
 	1    0    0    -1  
 $EndComp
@@ -172,8 +173,9 @@ P 1900 2900
 F 0 "C23" H 2015 2946 50  0000 L CNN
 F 1 "10uF" H 2015 2855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1938 2750 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 1900 2900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 1900 2900 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 1900 2900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 1900 2900 50  0001 C CNN "Link"
+F 5 ">50V" H 1900 2900 50  0001 C CNN "Voltage"
 	1    1900 2900
 	1    0    0    -1  
 $EndComp
@@ -322,9 +324,9 @@ P 4900 3250
 F 0 "R28" V 4900 3250 50  0000 C CNN
 F 1 "4m" V 4800 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 4830 3250 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C319.pdf" H 4900 3250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/cre.pdf" H 4900 3250 50  0001 C CNN
 F 4 ">2.5W" V 4900 3250 50  0001 C CNN "Power"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-MS4SF4M0U/P17092CT-ND/5357993" V 4900 3250 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/en/products/detail/bourns-inc/CRE2512-FZ-R004E-3/4900063" V 4900 3250 50  0001 C CNN "Link"
 	1    4900 3250
 	1    0    0    -1  
 $EndComp
@@ -399,8 +401,8 @@ P 8250 1450
 F 0 "C34" H 8365 1496 50  0000 L CNN
 F 1 "2200pF" H 8365 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 8288 1300 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GR443QR73D222KW01-01.pdf" H 8250 1450 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GR443QR73D222KW01L/490-6107-1-ND/3845307" H 8250 1450 50  0001 C CNN "Link"
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_highvoltage_en.pdf" H 8250 1450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/tdk-corporation/C4532X7R3D222K130KA/789783" H 8250 1450 50  0001 C CNN "Link"
 F 5 ">1200V" H 8250 1450 50  0001 C CNN "Voltage"
 	1    8250 1450
 	1    0    0    -1  
@@ -495,8 +497,8 @@ P 2950 3550
 F 0 "R17" V 2950 3550 50  0000 C CNN
 F 1 "169k" V 2900 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2880 3550 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2950 3550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1693V/P169KDACT-ND/3074985" V 2950 3550 50  0001 C CNN "Link"
+F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 2950 3550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/susumu/RG2012P-1693-B-T5/1240693" V 2950 3550 50  0001 C CNN "Link"
 	1    2950 3550
 	0    1    1    0   
 $EndComp
@@ -525,9 +527,9 @@ P 5100 3250
 F 0 "R29" V 5100 3250 50  0000 C CNN
 F 1 "4m" V 5000 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 5030 3250 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C319.pdf" H 5100 3250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/cre.pdf" H 5100 3250 50  0001 C CNN
 F 4 ">2.5W" V 5100 3250 50  0001 C CNN "Power"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-MS4SF4M0U/P17092CT-ND/5357993" V 5100 3250 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/en/products/detail/bourns-inc/CRE2512-FZ-R004E-3/4900063" V 5100 3250 50  0001 C CNN "Link"
 	1    5100 3250
 	1    0    0    -1  
 $EndComp
@@ -544,9 +546,9 @@ P 5300 3250
 F 0 "R30" V 5300 3250 50  0000 C CNN
 F 1 "4m" V 5200 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 5230 3250 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C319.pdf" H 5300 3250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/cre.pdf" H 5300 3250 50  0001 C CNN
 F 4 ">2.5W" V 5300 3250 50  0001 C CNN "Power"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-MS4SF4M0U/P17092CT-ND/5357993" V 5300 3250 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/en/products/detail/bourns-inc/CRE2512-FZ-R004E-3/4900063" V 5300 3250 50  0001 C CNN "Link"
 	1    5300 3250
 	1    0    0    -1  
 $EndComp
@@ -563,9 +565,9 @@ P 5500 3250
 F 0 "R31" V 5500 3250 50  0000 C CNN
 F 1 "4m" V 5400 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 5430 3250 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C319.pdf" H 5500 3250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/cre.pdf" H 5500 3250 50  0001 C CNN
 F 4 ">2.5W" V 5500 3250 50  0001 C CNN "Power"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-MS4SF4M0U/P17092CT-ND/5357993" V 5500 3250 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/en/products/detail/bourns-inc/CRE2512-FZ-R004E-3/4900063" V 5500 3250 50  0001 C CNN "Link"
 	1    5500 3250
 	1    0    0    -1  
 $EndComp
@@ -647,6 +649,7 @@ F 1 "10uF" H 4215 955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4138 850 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106KE05-01.pdf" H 4100 1000 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC72A106KE05L/490-16266-1-ND/7319356" H 4100 1000 50  0001 C CNN "Link"
+F 5 ">100V" H 4100 1000 50  0001 C CNN "Voltage"
 	1    4100 1000
 	1    0    0    -1  
 $EndComp
@@ -765,6 +768,7 @@ F 1 "10uF" H 4765 6605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4688 6500 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106KE05-01.pdf" H 4650 6650 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC72A106KE05L/490-16266-1-ND/7319356" H 4650 6650 50  0001 C CNN "Link"
+F 5 ">100V" H 4650 6650 50  0001 C CNN "Voltage"
 	1    4650 6650
 	1    0    0    -1  
 $EndComp
@@ -775,8 +779,8 @@ P 3750 6950
 F 0 "R24" H 3820 6996 50  0000 L CNN
 F 1 "80.6k" H 3820 6905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3680 6950 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3750 6950 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB8062V/P80-6KDBCT-ND/3076062" H 3750 6950 50  0001 C CNN "Link"
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 3750 6950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RT0603BRE0780K6L/1073164" H 3750 6950 50  0001 C CNN "Link"
 	1    3750 6950
 	1    0    0    -1  
 $EndComp
@@ -841,8 +845,9 @@ P 2000 8550
 F 0 "C24" H 2115 8596 50  0000 L CNN
 F 1 "10uF" H 2115 8505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2038 8400 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 2000 8550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 2000 8550 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 2000 8550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 2000 8550 50  0001 C CNN "Link"
+F 5 ">50V" H 2000 8550 50  0001 C CNN "Voltage"
 	1    2000 8550
 	1    0    0    -1  
 $EndComp
@@ -991,9 +996,9 @@ P 5000 8900
 F 0 "R32" V 5000 8900 50  0000 C CNN
 F 1 "4m" V 4900 8900 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 4930 8900 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C319.pdf" H 5000 8900 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/cre.pdf" H 5000 8900 50  0001 C CNN
 F 4 ">2.5W" V 5000 8900 50  0001 C CNN "Power"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-MS4SF4M0U/P17092CT-ND/5357993" V 5000 8900 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/en/products/detail/bourns-inc/CRE2512-FZ-R004E-3/4900063" V 5000 8900 50  0001 C CNN "Link"
 	1    5000 8900
 	1    0    0    -1  
 $EndComp
@@ -1112,8 +1117,8 @@ P 3050 9200
 F 0 "R18" V 3050 9200 50  0000 C CNN
 F 1 "169k" V 3000 9000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 9200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3050 9200 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1693V/P169KDACT-ND/3074985" V 3050 9200 50  0001 C CNN "Link"
+F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 3050 9200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/susumu/RG2012P-1693-B-T5/1240693" V 3050 9200 50  0001 C CNN "Link"
 	1    3050 9200
 	0    1    1    0   
 $EndComp
@@ -1144,9 +1149,9 @@ P 5200 8900
 F 0 "R33" V 5200 8900 50  0000 C CNN
 F 1 "4m" V 5100 8900 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 5130 8900 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C319.pdf" H 5200 8900 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/cre.pdf" H 5200 8900 50  0001 C CNN
 F 4 ">2.5W" V 5200 8900 50  0001 C CNN "Power"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-MS4SF4M0U/P17092CT-ND/5357993" V 5200 8900 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/en/products/detail/bourns-inc/CRE2512-FZ-R004E-3/4900063" V 5200 8900 50  0001 C CNN "Link"
 	1    5200 8900
 	1    0    0    -1  
 $EndComp
@@ -1201,6 +1206,7 @@ F 1 "10uF" H 4315 6605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4238 6500 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106KE05-01.pdf" H 4200 6650 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC72A106KE05L/490-16266-1-ND/7319356" H 4200 6650 50  0001 C CNN "Link"
+F 5 ">100V" H 4200 6650 50  0001 C CNN "Voltage"
 	1    4200 6650
 	1    0    0    -1  
 $EndComp
@@ -1781,8 +1787,9 @@ P 15000 4100
 F 0 "C31" H 15115 4146 50  0000 L CNN
 F 1 "10uF" H 15115 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 15038 3950 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 15000 4100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 15000 4100 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 15000 4100 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 15000 4100 50  0001 C CNN "Link"
+F 5 ">50V" H 15000 4100 50  0001 C CNN "Voltage"
 	1    15000 4100
 	1    0    0    -1  
 $EndComp
@@ -2150,8 +2157,8 @@ P 14450 3900
 F 0 "U7" H 14450 4142 50  0000 C CNN
 F 1 "LM7805" H 14450 4051 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 14450 4125 50  0001 C CIN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm340" H 14450 3850 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM7805MPX-NOPB/6110827" H 14450 3900 50  0001 C CNN "Link"
+F 3 "https://www.ti.com/lit/ds/symlink/lm340.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1621889857511" H 14450 3850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM7805MP-NOPB/6110582" H 14450 3900 50  0001 C CNN "Link"
 	1    14450 3900
 	1    0    0    -1  
 $EndComp
@@ -2162,7 +2169,8 @@ P 11200 4850
 F 0 "U9" H 11200 5100 50  0000 L CNN
 F 1 "LMV331" H 11200 5000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 11200 4950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv331.pdf" H 11200 5050 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/1b/e2/2d/82/fc/08/49/79/CD00258546.pdf/files/CD00258546.pdf/jcr:content/translations/en.CD00258546.pdf" H 11200 5050 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stmicroelectronics/LMV331ICT/2217242" H 11200 4850 50  0001 C CNN "Link"
 	1    11200 4850
 	1    0    0    -1  
 $EndComp
@@ -2236,8 +2244,9 @@ P 15000 5250
 F 0 "C33" H 15115 5296 50  0000 L CNN
 F 1 "10uF" H 15115 5205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 15038 5100 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 15000 5250 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 15000 5250 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 15000 5250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 15000 5250 50  0001 C CNN "Link"
+F 5 ">50V" H 15000 5250 50  0001 C CNN "Voltage"
 	1    15000 5250
 	1    0    0    -1  
 $EndComp
@@ -2263,8 +2272,9 @@ P 8200 5100
 F 0 "C26" H 8315 5146 50  0000 L CNN
 F 1 "10uF" H 8315 5055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8238 4950 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 8200 5100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 8200 5100 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 8200 5100 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 8200 5100 50  0001 C CNN "Link"
+F 5 ">50V" H 8200 5100 50  0001 C CNN "Voltage"
 	1    8200 5100
 	1    0    0    -1  
 $EndComp
@@ -2275,8 +2285,9 @@ P 13850 4150
 F 0 "C30" H 13965 4196 50  0000 L CNN
 F 1 "10uF" H 13965 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 13888 4000 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 13850 4150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 13850 4150 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 13850 4150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 13850 4150 50  0001 C CNN "Link"
+F 5 ">50V" H 13850 4150 50  0001 C CNN "Voltage"
 	1    13850 4150
 	1    0    0    -1  
 $EndComp
@@ -2289,6 +2300,7 @@ F 1 "10uF" H 10815 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 10738 1100 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106KE05-01.pdf" H 10700 1250 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC72A106KE05L/490-16266-1-ND/7319356" H 10700 1250 50  0001 C CNN "Link"
+F 5 ">100V" H 10700 1250 50  0001 C CNN "Voltage"
 	1    10700 1250
 	1    0    0    -1  
 $EndComp
@@ -2299,8 +2311,9 @@ P 9350 9300
 F 0 "C28" H 9465 9346 50  0000 L CNN
 F 1 "10uF" H 9465 9255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 9388 9150 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 9350 9300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 9350 9300 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 9350 9300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 9350 9300 50  0001 C CNN "Link"
+F 5 ">50V" H 9350 9300 50  0001 C CNN "Voltage"
 	1    9350 9300
 	1    0    0    -1  
 $EndComp
@@ -2324,8 +2337,9 @@ P 14550 1550
 F 0 "C29" H 14665 1596 50  0000 L CNN
 F 1 "10uF" H 14665 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 14588 1400 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 14550 1550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 14550 1550 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 14550 1550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 14550 1550 50  0001 C CNN "Link"
+F 5 ">50V" H 14550 1550 50  0001 C CNN "Voltage"
 	1    14550 1550
 	1    0    0    -1  
 $EndComp
@@ -2394,8 +2408,9 @@ P 6000 4850
 F 0 "C25" H 6115 4896 50  0000 L CNN
 F 1 "10uF" H 6115 4805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6038 4700 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 6000 4850 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 6000 4850 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 6000 4850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 6000 4850 50  0001 C CNN "Link"
+F 5 ">50V" H 6000 4850 50  0001 C CNN "Voltage"
 	1    6000 4850
 	0    -1   -1   0   
 $EndComp
@@ -2576,8 +2591,8 @@ P 14450 5000
 F 0 "U8" H 14450 5242 50  0000 C CNN
 F 1 "LM7805" H 14450 5151 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 14450 5225 50  0001 C CIN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm340" H 14450 4950 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM7805MPX-NOPB/6110827" H 14450 5000 50  0001 C CNN "Link"
+F 3 "https://www.ti.com/lit/ds/symlink/lm340.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1621889857511" H 14450 4950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM7805MP-NOPB/6110582" H 14450 5000 50  0001 C CNN "Link"
 	1    14450 5000
 	1    0    0    -1  
 $EndComp
@@ -2588,8 +2603,9 @@ P 13850 5250
 F 0 "C32" H 13965 5296 50  0000 L CNN
 F 1 "10uF" H 13965 5205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 13888 5100 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 13850 5250 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 13850 5250 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 13850 5250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 13850 5250 50  0001 C CNN "Link"
+F 5 ">50V" H 13850 5250 50  0001 C CNN "Voltage"
 	1    13850 5250
 	1    0    0    -1  
 $EndComp
@@ -2691,8 +2707,9 @@ P 11350 4450
 F 0 "C27" H 11465 4496 50  0000 L CNN
 F 1 "10uF" H 11465 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 11388 4300 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" H 11350 4450 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106ME01L/490-12457-1-ND/5417158" H 11350 4450 50  0001 C CNN "Link"
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 11350 4450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 11350 4450 50  0001 C CNN "Link"
+F 5 ">50V" H 11350 4450 50  0001 C CNN "Voltage"
 	1    11350 4450
 	0    -1   -1   0   
 $EndComp
