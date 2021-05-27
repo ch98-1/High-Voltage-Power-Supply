@@ -624,10 +624,10 @@ $EndComp
 Wire Wire Line
 	1200 2750 1400 2750
 $Comp
-L Device:CP C20
+L Device:CP C22
 U 1 1 5F305A50
 P 1400 2900
-F 0 "C20" H 1518 2946 50  0000 L CNN
+F 0 "C22" H 1518 2946 50  0000 L CNN
 F 1 "100uF" H 1518 2855 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1438 2750 50  0001 C CNN
 F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157" H 1400 2900 50  0001 C CNN
@@ -1036,10 +1036,10 @@ F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/NDSH25170A/NDSH2
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C19
+L Device:C C18
 U 1 1 5F8F50AF
 P 8350 7100
-F 0 "C19" H 8465 7146 50  0000 L CNN
+F 0 "C18" H 8465 7146 50  0000 L CNN
 F 1 "5uF" H 8465 7055 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4" H 8388 6950 50  0001 C CNN
 F 3 "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/MKP_B32774_778.pdf" H 8350 7100 50  0001 C CNN
@@ -2226,18 +2226,6 @@ $EndComp
 Wire Wire Line
 	11900 4550 11900 4450
 $Comp
-L Device:L L1
-U 1 1 610A1D50
-P 13150 1400
-F 0 "L1" H 13203 1446 50  0000 L CNN
-F 1 "33uH" H 13203 1355 50  0000 L CNN
-F 2 "Inductor_SMD:L_Bourns_SRR1260" H 13150 1400 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/SRR1280A.pdf" H 13150 1400 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/bourns-inc/SRR1280A-330M/4927327" H 13150 1400 50  0001 C CNN "Link"
-	1    13150 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C33
 U 1 1 6111D781
 P 15000 5250
@@ -2319,10 +2307,10 @@ F 5 ">50V" H 9350 9300 50  0001 C CNN "Voltage"
 $EndComp
 Connection ~ 9350 9150
 $Comp
-L Device:CP C22
+L Device:CP C20
 U 1 1 611A24F6
 P 14100 1550
-F 0 "C22" H 14218 1596 50  0000 L CNN
+F 0 "C20" H 14218 1596 50  0000 L CNN
 F 1 "100uF" H 14218 1505 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 14138 1400 50  0001 C CNN
 F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157" H 14100 1550 50  0001 C CNN
@@ -2344,10 +2332,10 @@ F 5 ">50V" H 14550 1550 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
+L Device:C C16
 U 1 1 611EBBFA
 P 8600 5100
-F 0 "C17" H 8715 5146 50  0000 L CNN
+F 0 "C16" H 8715 5146 50  0000 L CNN
 F 1 "0.1uF" H 8715 5055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8638 4950 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31C5C1H104JA01-01.pdf" H 8600 5100 50  0001 C CNN
@@ -2465,10 +2453,10 @@ F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRM31A5C2J151
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C18
+L Device:C C17
 U 1 1 613048FF
 P 10750 5200
-F 0 "C18" H 10865 5246 50  0000 L CNN
+F 0 "C17" H 10865 5246 50  0000 L CNN
 F 1 "0.1uF" H 10865 5155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 10788 5050 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31C5C1H104JA01-01.pdf" H 10750 5200 50  0001 C CNN
@@ -2729,104 +2717,20 @@ Wire Wire Line
 Connection ~ 11100 4450
 Wire Wire Line
 	11500 4450 11550 4450
-$Comp
-L Device:C C16
-U 1 1 61942996
-P 12600 1250
-F 0 "C16" H 12715 1296 50  0000 L CNN
-F 1 "0.1uF" H 12715 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 12638 1100 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31C5C1H104JA01-01.pdf" H 12600 1250 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRM31C5C1H104JA01K/2548138" H 12600 1250 50  0001 C CNN "Link"
-	1    12600 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C37
-U 1 1 619E6ED0
-P 11150 2100
-F 0 "C37" H 11265 2146 50  0000 L CNN
-F 1 "10nF" H 11265 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11188 1950 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H103JA01-01.pdf" H 11150 2100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRM1885C1H103JA01D/490-9666-1-ND/4934772" H 11150 2100 50  0001 C CNN "Link"
-	1    11150 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L High_Voltage_Power_Supply:LMR16030S U11
-U 1 1 6085EA71
-P 11900 1550
-F 0 "U11" H 11900 2065 50  0000 C CNN
-F 1 "LMR16030S" H 11900 1974 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias" H 11900 1550 50  0001 C CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmr16030" H 11900 1550 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LMR16030SDDA/6110579" H 11900 1550 50  0001 C CNN "Link"
-	1    11900 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12400 1400 12600 1400
-Connection ~ 12600 1400
-Wire Wire Line
-	12600 1400 12900 1400
-Wire Wire Line
-	12400 1300 12400 1100
-Wire Wire Line
-	12400 1100 12600 1100
 Connection ~ 14100 1400
-Wire Wire Line
-	12400 1600 12750 1600
 $Comp
 L power:GND #PWR0174
 U 1 1 608FC397
-P 12600 1950
-F 0 "#PWR0174" H 12600 1700 50  0001 C CNN
-F 1 "GND" H 12605 1777 50  0000 C CNN
-F 2 "" H 12600 1950 50  0001 C CNN
-F 3 "" H 12600 1950 50  0001 C CNN
-	1    12600 1950
+P 11900 1650
+F 0 "#PWR0174" H 11900 1400 50  0001 C CNN
+F 1 "GND" H 11905 1477 50  0000 C CNN
+F 2 "" H 11900 1650 50  0001 C CNN
+F 3 "" H 11900 1650 50  0001 C CNN
+	1    11900 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12400 1750 12600 1750
-Wire Wire Line
-	12600 1750 12600 1850
-Wire Wire Line
-	12400 1850 12600 1850
-Connection ~ 12600 1850
-Wire Wire Line
-	12600 1850 12600 1950
-Wire Wire Line
-	11150 1950 11150 1800
-Wire Wire Line
-	11150 1800 11400 1800
-$Comp
-L power:GND #PWR0175
-U 1 1 60981DDF
-P 10850 2350
-F 0 "#PWR0175" H 10850 2100 50  0001 C CNN
-F 1 "GND" H 10855 2177 50  0000 C CNN
-F 2 "" H 10850 2350 50  0001 C CNN
-F 3 "" H 10850 2350 50  0001 C CNN
-	1    10850 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10850 2350 11150 2350
-Wire Wire Line
-	11150 2350 11150 2250
-Wire Wire Line
-	11400 1700 10850 1700
-Wire Wire Line
-	10850 1700 10850 1900
-Wire Wire Line
-	10850 2350 10850 2200
-Connection ~ 10850 2350
 Wire Wire Line
 	10450 1100 10700 1100
-Wire Wire Line
-	11400 1100 11400 1300
 Connection ~ 10700 1100
 Wire Wire Line
 	10700 1100 11400 1100
@@ -2843,105 +2747,33 @@ F 3 "" H 10700 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10700 1500 10700 1400
-Wire Wire Line
-	11400 1400 11400 1300
-Connection ~ 11400 1300
-$Comp
-L Device:R R14
-U 1 1 60A6C59C
-P 10850 2050
-F 0 "R14" V 10850 2050 50  0000 C CNN
-F 1 "36.5k" V 10750 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10780 2050 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB3652V/P36-5KDBCT-ND/3075945" H 10850 2050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB3652V/P36-5KDBCT-ND/3075945" V 10850 2050 50  0001 C CNN "Link"
-	1    10850 2050
-	-1   0    0    1   
-$EndComp
-Connection ~ 13800 1400
-Wire Wire Line
-	13800 1400 14100 1400
-Wire Wire Line
-	12750 1600 12750 2050
-$Comp
-L Device:R R11
-U 1 1 60B09C4E
-P 13800 2300
-F 0 "R11" V 13800 2300 50  0000 C CNN
-F 1 "4.87k" V 13700 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 13730 2300 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13800 2300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8ENF4871V/P4-87KFCT-ND/89784" V 13800 2300 50  0001 C CNN "Link"
-F 5 "0.25W" V 13800 2300 50  0001 C CNN "Power"
-	1    13800 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13800 2150 13800 2050
-Connection ~ 13800 2050
-$Comp
-L power:GND #PWR0177
-U 1 1 60B2F59F
-P 13800 2550
-F 0 "#PWR0177" H 13800 2300 50  0001 C CNN
-F 1 "GND" H 13805 2377 50  0000 C CNN
-F 2 "" H 13800 2550 50  0001 C CNN
-F 3 "" H 13800 2550 50  0001 C CNN
-	1    13800 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13800 2550 13800 2450
 $Comp
 L power:GND #PWR0178
 U 1 1 60B51AC7
-P 12900 1800
-F 0 "#PWR0178" H 12900 1550 50  0001 C CNN
-F 1 "GND" H 12905 1627 50  0000 C CNN
-F 2 "" H 12900 1800 50  0001 C CNN
-F 3 "" H 12900 1800 50  0001 C CNN
-	1    12900 1800
+P 12500 1800
+F 0 "#PWR0178" H 12500 1550 50  0001 C CNN
+F 1 "GND" H 12505 1627 50  0000 C CNN
+F 2 "" H 12500 1800 50  0001 C CNN
+F 3 "" H 12500 1800 50  0001 C CNN
+	1    12500 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Schottky D3
 U 1 1 60B791E0
-P 12900 1600
-F 0 "D3" V 12854 1680 50  0000 L CNN
-F 1 "B3100-13-F" V 12945 1680 50  0000 L CNN
-F 2 "Diode_SMD:D_SMC" H 12900 1600 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/B370-B3100.pdf" H 12900 1600 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/diodes-incorporated/B3100-13-F/808529" V 12900 1600 50  0001 C CNN "Link"
-	1    12900 1600
+P 12500 1600
+F 0 "D3" V 12454 1680 50  0000 L CNN
+F 1 "B3100-13-F" V 12545 1680 50  0000 L CNN
+F 2 "Diode_SMD:D_SMC" H 12500 1600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/B370-B3100.pdf" H 12500 1600 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/diodes-incorporated/B3100-13-F/808529" V 12500 1600 50  0001 C CNN "Link"
+	1    12500 1600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12900 1450 12900 1400
-Connection ~ 12900 1400
+	12500 1450 12500 1400
 Wire Wire Line
-	12900 1400 13000 1400
-Wire Wire Line
-	12900 1800 12900 1750
-Wire Wire Line
-	13800 1550 13800 1400
-Wire Wire Line
-	13800 1850 13800 2050
-$Comp
-L Device:R R5
-U 1 1 60A7D5A9
-P 13800 1700
-F 0 "R5" V 13800 1700 50  0000 C CNN
-F 1 "100k" V 13900 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13730 1700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 13800 1700 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100" V 13800 1700 50  0001 C CNN "Link"
-	1    13800 1700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12750 2050 13800 2050
-Wire Wire Line
-	13300 1400 13800 1400
+	12500 1800 12500 1750
 $Comp
 L Device:R R4
 U 1 1 5F8F511A
@@ -3086,4 +2918,75 @@ F 3 "" H 800 3450 50  0001 C CNN
 	1    800  3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11400 1100 11400 1200
+$Comp
+L Regulator_Switching:LM2576HVT-15 U11
+U 1 1 60B11240
+P 11900 1300
+F 0 "U11" H 11900 1667 50  0000 C CNN
+F 1 "LM2576HVT-15" H 11900 1576 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-5_Vertical" H 11900 1050 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 11900 1300 50  0001 C CNN
+	1    11900 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 1400 12500 1400
+Wire Wire Line
+	11900 1650 11900 1600
+Wire Wire Line
+	11900 1600 11400 1600
+Connection ~ 11900 1600
+Wire Wire Line
+	11400 1400 11400 1600
+Wire Wire Line
+	13300 1400 13500 1400
+Wire Wire Line
+	12400 1200 13500 1200
+Wire Wire Line
+	13500 1200 13500 1400
+Connection ~ 13500 1400
+Wire Wire Line
+	13500 1400 14100 1400
+Connection ~ 12500 1400
+Wire Wire Line
+	12500 1400 13000 1400
+$Comp
+L Device:L L1
+U 1 1 610A1D50
+P 13150 1400
+F 0 "L1" V 13250 1350 50  0000 L CNN
+F 1 "330uH" V 13100 1250 50  0000 L CNN
+F 2 "High_Voltage_Power_Supply:60B334C" H 13150 1400 50  0001 C CNN
+F 3 "https://www.murata-ps.com/pub/data/magnetics/kmp_6000b.pdf" H 13150 1400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/60B334C/811-2464-ND/3178535" H 13150 1400 50  0001 C CNN "Link"
+	1    13150 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C19
+U 1 1 60C85B7D
+P 13600 1550
+F 0 "C19" H 13718 1596 50  0000 L CNN
+F 1 "100uF" H 13718 1505 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 13638 1400 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157" H 13600 1550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEU-FR1H101B/P15369CT-ND/3072249" H 13600 1550 50  0001 C CNN "Link"
+	1    13600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0175
+U 1 1 60C85B83
+P 13600 1800
+F 0 "#PWR0175" H 13600 1550 50  0001 C CNN
+F 1 "GND" H 13605 1627 50  0000 C CNN
+F 2 "" H 13600 1800 50  0001 C CNN
+F 3 "" H 13600 1800 50  0001 C CNN
+	1    13600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 1800 13600 1700
 $EndSCHEMATC
