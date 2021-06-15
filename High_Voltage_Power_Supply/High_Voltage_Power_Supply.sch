@@ -140,19 +140,6 @@ $EndComp
 Wire Wire Line
 	4200 3650 4400 3650
 $Comp
-L High_Voltage_Power_Supply:LT3751-TSSOP U1
-U 1 1 5B89BF58
-P 3650 3150
-F 0 "U1" H 3650 4328 50  0000 C CNN
-F 1 "LT3751-TSSOP" H 3650 4237 50  0000 C CNN
-F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias" H 3650 3150 50  0001 C CNN
-F 3 "http://www.linear.com/docs/27024" H 3650 3150 50  0001 C CNN
-F 4 "Want LT3751I if possible as it goes down to -40c, but LT3751E works if needed (only to 0c)" H 3650 3150 50  0001 C CNN "Note"
-F 5 "https://www.digikey.com/product-detail/en/analog-devices-inc/LT3751EFE-TRPBF/LT3751EFE-TRPBFCT-ND/8040620" H 3650 3150 50  0001 C CNN "Link (LT3751E)"
-	1    3650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R12
 U 1 1 5B8A699F
 P 4500 2400
@@ -621,8 +608,6 @@ F 3 "" H 1400 3050 50  0001 C CNN
 	1    1400 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 2750 1400 2750
 $Comp
 L Device:CP C22
 U 1 1 5F305A50
@@ -1702,16 +1687,12 @@ F 3 "" H 14100 8600 50  0001 C CNN
 	1    14100 8600
 	1    0    0    -1  
 $EndComp
-Text GLabel 14300 8200 0    50   Input ~ 0
-~FAULT_IGN_5V~
-Wire Wire Line
-	14850 8200 14300 8200
 Text GLabel 14750 8100 0    50   Input ~ 0
+~FAULT_IGN_5V~
+Text GLabel 14150 8200 0    50   Input ~ 0
 ~FAULT_5V~
 Wire Wire Line
 	14750 8100 14850 8100
-Wire Wire Line
-	14850 8000 14300 8000
 Wire Wire Line
 	14850 7900 14700 7900
 Wire Wire Line
@@ -1766,7 +1747,7 @@ Wire Wire Line
 	10000 8450 10100 8450
 Wire Wire Line
 	10100 8450 10100 8550
-Text GLabel 14300 8000 0    50   Input ~ 0
+Text GLabel 14100 8000 0    50   Input ~ 0
 CHARGE_IGN_5V
 Text GLabel 14700 7900 0    50   Input ~ 0
 CHARGE_5V
@@ -2831,47 +2812,25 @@ F 3 "" H 800 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H5
+L Mechanical:MountingHole H5
 U 1 1 608F41BF
 P 800 5550
 F 0 "H5" H 900 5599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 900 5508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 5550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 5550 50  0001 C CNN
 F 3 "~" H 800 5550 50  0001 C CNN
 	1    800  5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0181
-U 1 1 608F41C5
-P 800 5650
-F 0 "#PWR0181" H 800 5400 50  0001 C CNN
-F 1 "GND" H 805 5477 50  0000 C CNN
-F 2 "" H 800 5650 50  0001 C CNN
-F 3 "" H 800 5650 50  0001 C CNN
-	1    800  5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H6
+L Mechanical:MountingHole H6
 U 1 1 60914351
 P 800 6100
 F 0 "H6" H 900 6149 50  0000 L CNN
 F 1 "MountingHole_Pad" H 900 6058 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 800 6100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 6100 50  0001 C CNN
 F 3 "~" H 800 6100 50  0001 C CNN
 	1    800  6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0182
-U 1 1 60914357
-P 800 6200
-F 0 "#PWR0182" H 800 5950 50  0001 C CNN
-F 1 "GND" H 805 6027 50  0000 C CNN
-F 2 "" H 800 6200 50  0001 C CNN
-F 3 "" H 800 6200 50  0001 C CNN
-	1    800  6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2948,7 +2907,7 @@ Wire Wire Line
 	13500 1200 13500 1400
 Connection ~ 13500 1400
 Wire Wire Line
-	13500 1400 14100 1400
+	13500 1400 13600 1400
 Connection ~ 12500 1400
 Wire Wire Line
 	12500 1400 13000 1400
@@ -2989,4 +2948,26 @@ F 3 "" H 13600 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13600 1800 13600 1700
+Connection ~ 13600 1400
+Wire Wire Line
+	13600 1400 14100 1400
+Wire Wire Line
+	1200 2750 1400 2750
+$Comp
+L High_Voltage_Power_Supply:LT3751-TSSOP U1
+U 1 1 5B89BF58
+P 3650 3150
+F 0 "U1" H 3650 4328 50  0000 C CNN
+F 1 "LT3751-TSSOP" H 3650 4237 50  0000 C CNN
+F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias" H 3650 3150 50  0001 C CNN
+F 3 "http://www.linear.com/docs/27024" H 3650 3150 50  0001 C CNN
+F 4 "Want LT3751I if possible as it goes down to -40c, but LT3751E works if needed (only to 0c)" H 3650 3150 50  0001 C CNN "Note"
+F 5 "https://www.digikey.com/product-detail/en/analog-devices-inc/LT3751EFE-TRPBF/LT3751EFE-TRPBFCT-ND/8040620" H 3650 3150 50  0001 C CNN "Link (LT3751E)"
+	1    3650 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 8000 14850 8000
+Wire Wire Line
+	14150 8200 14850 8200
 $EndSCHEMATC
