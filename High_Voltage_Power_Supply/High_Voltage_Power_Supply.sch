@@ -1537,32 +1537,10 @@ F 3 "" H 14900 8500 50  0001 C CNN
 	1    14900 8500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0139
-U 1 1 5FBA0E07
-P 12550 6300
-F 0 "#PWR0139" H 12550 6150 50  0001 C CNN
-F 1 "+5V" H 12565 6473 50  0000 C CNN
-F 2 "" H 12550 6300 50  0001 C CNN
-F 3 "" H 12550 6300 50  0001 C CNN
-	1    12550 6300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12550 6300 12550 6350
 Wire Wire Line
 	12550 6350 12600 6350
-$Comp
-L power:+5V #PWR0140
-U 1 1 5FBAF7ED
-P 13500 8350
-F 0 "#PWR0140" H 13500 8200 50  0001 C CNN
-F 1 "+5V" H 13515 8523 50  0000 C CNN
-F 2 "" H 13500 8350 50  0001 C CNN
-F 3 "" H 13500 8350 50  0001 C CNN
-	1    13500 8350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13450 8400 13500 8400
 Wire Wire Line
@@ -2966,14 +2944,14 @@ Wire Wire Line
 $Comp
 L Device:D_Zener D4
 U 1 1 60EBCDC1
-P 9100 7700
-F 0 "D4" V 9054 7780 50  0000 L CNN
-F 1 "CMZ5956B" V 9145 7780 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 9100 7700 50  0001 C CNN
-F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9100 7700 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMZ5956B-TR13-PBFREE/5325082" H 9100 7700 50  0001 C CNN "Link"
-F 5 "200V" H 9100 7700 50  0001 C CNN "Voltage"
-	1    9100 7700
+P 9100 8000
+F 0 "D4" V 9054 8080 50  0000 L CNN
+F 1 "CMZ5956B" V 9145 8080 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9100 8000 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9100 8000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMZ5956B-TR13-PBFREE/5325082" H 9100 8000 50  0001 C CNN "Link"
+F 5 "200V" H 9100 8000 50  0001 C CNN "Voltage"
+	1    9100 8000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2984,21 +2962,8 @@ Wire Wire Line
 $Comp
 L Device:D_Zener D5
 U 1 1 60F50017
-P 9100 8000
-F 0 "D5" V 9054 8080 50  0000 L CNN
-F 1 "CMZ5956B" V 9145 8080 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 9100 8000 50  0001 C CNN
-F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9100 8000 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMZ5956B-TR13-PBFREE/5325082" H 9100 8000 50  0001 C CNN "Link"
-F 5 "200V" H 9100 8000 50  0001 C CNN "Voltage"
-	1    9100 8000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener D6
-U 1 1 60F506B5
 P 9100 8300
-F 0 "D6" V 9054 8380 50  0000 L CNN
+F 0 "D5" V 9054 8380 50  0000 L CNN
 F 1 "CMZ5956B" V 9145 8380 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 9100 8300 50  0001 C CNN
 F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9100 8300 50  0001 C CNN
@@ -3008,10 +2973,10 @@ F 5 "200V" H 9100 8300 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D7
-U 1 1 60F50C84
+L Device:D_Zener D6
+U 1 1 60F506B5
 P 9100 8600
-F 0 "D7" V 9054 8680 50  0000 L CNN
+F 0 "D6" V 9054 8680 50  0000 L CNN
 F 1 "CMZ5956B" V 9145 8680 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 9100 8600 50  0001 C CNN
 F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9100 8600 50  0001 C CNN
@@ -3020,29 +2985,24 @@ F 5 "200V" H 9100 8600 50  0001 C CNN "Voltage"
 	1    9100 8600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8850 7550 9100 7550
-Connection ~ 9100 7550
-Wire Wire Line
-	9100 7550 9700 7550
 $Comp
-L Device:D_Zener D8
-U 1 1 6103547D
-P 9700 7700
-F 0 "D8" V 9654 7780 50  0000 L CNN
-F 1 "CMZ5956B" V 9745 7780 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 9700 7700 50  0001 C CNN
-F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9700 7700 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMZ5956B-TR13-PBFREE/5325082" H 9700 7700 50  0001 C CNN "Link"
-F 5 "200V" H 9700 7700 50  0001 C CNN "Voltage"
-	1    9700 7700
+L Device:D_Zener D7
+U 1 1 60F50C84
+P 9100 8900
+F 0 "D7" V 9054 8980 50  0000 L CNN
+F 1 "CMZ5956B" V 9145 8980 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9100 8900 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9100 8900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMZ5956B-TR13-PBFREE/5325082" H 9100 8900 50  0001 C CNN "Link"
+F 5 "200V" H 9100 8900 50  0001 C CNN "Voltage"
+	1    9100 8900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D9
-U 1 1 61035483
+L Device:D_Zener D8
+U 1 1 6103547D
 P 9700 8000
-F 0 "D9" V 9654 8080 50  0000 L CNN
+F 0 "D8" V 9654 8080 50  0000 L CNN
 F 1 "CMZ5956B" V 9745 8080 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 9700 8000 50  0001 C CNN
 F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9700 8000 50  0001 C CNN
@@ -3052,10 +3012,10 @@ F 5 "200V" H 9700 8000 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D10
-U 1 1 61035489
+L Device:D_Zener D9
+U 1 1 61035483
 P 9700 8300
-F 0 "D10" V 9654 8380 50  0000 L CNN
+F 0 "D9" V 9654 8380 50  0000 L CNN
 F 1 "CMZ5956B" V 9745 8380 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 9700 8300 50  0001 C CNN
 F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9700 8300 50  0001 C CNN
@@ -3065,10 +3025,10 @@ F 5 "200V" H 9700 8300 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D11
-U 1 1 6103548F
+L Device:D_Zener D10
+U 1 1 61035489
 P 9700 8600
-F 0 "D11" V 9654 8680 50  0000 L CNN
+F 0 "D10" V 9654 8680 50  0000 L CNN
 F 1 "CMZ5956B" V 9745 8680 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 9700 8600 50  0001 C CNN
 F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9700 8600 50  0001 C CNN
@@ -3078,23 +3038,23 @@ F 5 "200V" H 9700 8600 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D12
-U 1 1 61053F69
-P 10300 7700
-F 0 "D12" V 10254 7780 50  0000 L CNN
-F 1 "CMZ5956B" V 10345 7780 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 10300 7700 50  0001 C CNN
-F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 10300 7700 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMZ5956B-TR13-PBFREE/5325082" H 10300 7700 50  0001 C CNN "Link"
-F 5 "200V" H 10300 7700 50  0001 C CNN "Voltage"
-	1    10300 7700
+L Device:D_Zener D11
+U 1 1 6103548F
+P 9700 8900
+F 0 "D11" V 9654 8980 50  0000 L CNN
+F 1 "CMZ5956B" V 9745 8980 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9700 8900 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 9700 8900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMZ5956B-TR13-PBFREE/5325082" H 9700 8900 50  0001 C CNN "Link"
+F 5 "200V" H 9700 8900 50  0001 C CNN "Voltage"
+	1    9700 8900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D13
-U 1 1 61053F6F
+L Device:D_Zener D12
+U 1 1 61053F69
 P 10300 8000
-F 0 "D13" V 10254 8080 50  0000 L CNN
+F 0 "D12" V 10254 8080 50  0000 L CNN
 F 1 "CMZ5956B" V 10345 8080 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 10300 8000 50  0001 C CNN
 F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 10300 8000 50  0001 C CNN
@@ -3104,10 +3064,10 @@ F 5 "200V" H 10300 8000 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D14
-U 1 1 61053F75
+L Device:D_Zener D13
+U 1 1 61053F6F
 P 10300 8300
-F 0 "D14" V 10254 8380 50  0000 L CNN
+F 0 "D13" V 10254 8380 50  0000 L CNN
 F 1 "CMZ5956B" V 10345 8380 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 10300 8300 50  0001 C CNN
 F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 10300 8300 50  0001 C CNN
@@ -3117,10 +3077,10 @@ F 5 "200V" H 10300 8300 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D15
-U 1 1 61053F7B
+L Device:D_Zener D14
+U 1 1 61053F75
 P 10300 8600
-F 0 "D15" V 10254 8680 50  0000 L CNN
+F 0 "D14" V 10254 8680 50  0000 L CNN
 F 1 "CMZ5956B" V 10345 8680 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 10300 8600 50  0001 C CNN
 F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 10300 8600 50  0001 C CNN
@@ -3129,28 +3089,89 @@ F 5 "200V" H 10300 8600 50  0001 C CNN "Voltage"
 	1    10300 8600
 	0    1    1    0   
 $EndComp
-Connection ~ 9700 7550
+$Comp
+L Device:D_Zener D15
+U 1 1 61053F7B
+P 10300 8900
+F 0 "D15" V 10254 8980 50  0000 L CNN
+F 1 "CMZ5956B" V 10345 8980 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 10300 8900 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/CMZ5921B.PDF" H 10300 8900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMZ5956B-TR13-PBFREE/5325082" H 10300 8900 50  0001 C CNN "Link"
+F 5 "200V" H 10300 8900 50  0001 C CNN "Voltage"
+	1    10300 8900
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	9700 7550 10300 7550
-Connection ~ 10300 7550
+	9100 9050 9700 9050
+Connection ~ 9700 9050
 Wire Wire Line
-	10300 7550 11600 7550
-Wire Wire Line
-	9100 8750 9700 8750
-Connection ~ 9700 8750
-Wire Wire Line
-	9700 8750 10300 8750
+	9700 9050 10300 9050
 $Comp
 L power:GND #PWR01
 U 1 1 610CFFA9
-P 9700 8850
-F 0 "#PWR01" H 9700 8600 50  0001 C CNN
-F 1 "GND" H 9705 8677 50  0000 C CNN
-F 2 "" H 9700 8850 50  0001 C CNN
-F 3 "" H 9700 8850 50  0001 C CNN
-	1    9700 8850
+P 9700 9150
+F 0 "#PWR01" H 9700 8900 50  0001 C CNN
+F 1 "GND" H 9705 8977 50  0000 C CNN
+F 2 "" H 9700 9150 50  0001 C CNN
+F 3 "" H 9700 9150 50  0001 C CNN
+	1    9700 9150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 8850 9700 8750
+	9700 9150 9700 9050
+Wire Wire Line
+	8850 7550 11600 7550
+Wire Wire Line
+	11600 7850 10300 7850
+Connection ~ 11600 7850
+Connection ~ 9700 7850
+Wire Wire Line
+	9700 7850 9100 7850
+Connection ~ 10300 7850
+Wire Wire Line
+	10300 7850 9700 7850
+Wire Wire Line
+	10300 8150 9700 8150
+Connection ~ 10300 8150
+Connection ~ 9100 8150
+Connection ~ 9700 8150
+Wire Wire Line
+	9700 8150 9100 8150
+Wire Wire Line
+	9100 8450 9700 8450
+Connection ~ 9100 8450
+Connection ~ 10300 8450
+Connection ~ 9700 8450
+Wire Wire Line
+	9700 8450 10300 8450
+Wire Wire Line
+	10300 8750 9700 8750
+Connection ~ 10300 8750
+Connection ~ 9100 8750
+Connection ~ 9700 8750
+Wire Wire Line
+	9700 8750 9100 8750
+$Comp
+L power:+5VD #PWR?
+U 1 1 6123F13A
+P 13500 8350
+F 0 "#PWR?" H 13500 8200 50  0001 C CNN
+F 1 "+5VD" H 13515 8523 50  0000 C CNN
+F 2 "" H 13500 8350 50  0001 C CNN
+F 3 "" H 13500 8350 50  0001 C CNN
+	1    13500 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR?
+U 1 1 612430CA
+P 12550 6300
+F 0 "#PWR?" H 12550 6150 50  0001 C CNN
+F 1 "+5VD" H 12565 6473 50  0000 C CNN
+F 2 "" H 12550 6300 50  0001 C CNN
+F 3 "" H 12550 6300 50  0001 C CNN
+	1    12550 6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
