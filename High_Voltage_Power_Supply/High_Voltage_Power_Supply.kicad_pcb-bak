@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 28)
+    (drawings 29)
     (tracks 776)
     (zones 0)
     (modules 110)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -7669,6 +7669,9 @@
     )
   )
 
+  (gr_text "High Voltage PPT Power Supply V3\nCorwin Hansen\ncorwinh.com/git\nakerunakayama@gmail.com\n(206) 462 8204" (at 60.4 83.7 90) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text LM2576HVT-15 (at 38.5 148.5 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -8443,9 +8446,6 @@
   (via (at 79.3 85.4) (size 0.8128) (drill 0.4064) (layers F.Cu B.Cu) (net 32))
   (segment (start 79.3 84.4) (end 79.3 85.4) (width 1) (layer F.Cu) (net 32))
   (segment (start 79.3 84.4) (end 79.3 85.4) (width 1) (layer B.Cu) (net 32))
-  (segment (start 79.3 85.4) (end 79.3 119.20094) (width 1) (layer F.Cu) (net 32))
-  (segment (start 79.3 119.20094) (end 81.39906 121.3) (width 1) (layer F.Cu) (net 32))
-  (segment (start 81.39906 121.3) (end 84.499992 121.3) (width 1) (layer F.Cu) (net 32))
   (segment (start 35.5 122.555) (end 36.475 122.555) (width 1) (layer F.Cu) (net 32))
   (segment (start 26 130.84) (end 27.04 130.84) (width 1) (layer F.Cu) (net 32))
   (segment (start 28.95 132.75) (end 32.926962 132.75) (width 1) (layer F.Cu) (net 32))
@@ -8458,6 +8458,9 @@
   (segment (start 31.525 110.555) (end 32.5 110.555) (width 0.5) (layer F.Cu) (net 32))
   (segment (start 34 121.2) (end 35.355 122.555) (width 0.5) (layer F.Cu) (net 32))
   (segment (start 32.5 110.555) (end 34 112.055) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 81.2 121.3) (end 84.499992 121.3) (width 1) (layer F.Cu) (net 32))
+  (segment (start 79.3 85.4) (end 79.3 119.4) (width 1) (layer F.Cu) (net 32))
+  (segment (start 79.3 119.4) (end 81.2 121.3) (width 1) (layer F.Cu) (net 32))
   (segment (start 215 51) (end 219 55) (width 1) (layer B.Cu) (net 33))
   (segment (start 206.4625 51) (end 215 51) (width 1) (layer B.Cu) (net 33))
   (via (at 93.6 72.6) (size 0.8128) (drill 0.4064) (layers F.Cu B.Cu) (net 34))
