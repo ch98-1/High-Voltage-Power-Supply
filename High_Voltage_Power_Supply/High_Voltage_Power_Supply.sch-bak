@@ -154,10 +154,10 @@ $EndComp
 Wire Wire Line
 	4200 2400 4350 2400
 $Comp
-L Device:C C23
+L Device:C C24
 U 1 1 5B8A9F27
 P 1900 2900
-F 0 "C23" H 2015 2946 50  0000 L CNN
+F 0 "C24" H 2015 2946 50  0000 L CNN
 F 1 "10uF" H 2015 2855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1938 2750 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 1900 2900 50  0001 C CNN
@@ -212,8 +212,6 @@ Wire Wire Line
 Connection ~ 2250 2950
 Wire Wire Line
 	2250 2950 2250 2750
-Wire Wire Line
-	4200 2850 4600 2850
 $Comp
 L power:VCC #PWR0108
 U 1 1 5B8B22CD
@@ -824,10 +822,10 @@ $EndComp
 Wire Wire Line
 	4300 8050 4450 8050
 $Comp
-L Device:C C24
+L Device:C C25
 U 1 1 5F8F500E
 P 2000 8550
-F 0 "C24" H 2115 8596 50  0000 L CNN
+F 0 "C25" H 2115 8596 50  0000 L CNN
 F 1 "10uF" H 2115 8505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2038 8400 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 2000 8550 50  0001 C CNN
@@ -988,10 +986,10 @@ F 5 "https://www.digikey.com/en/products/detail/bourns-inc/CRE2512-FZ-R004E-3/49
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q3
+L Device:Q_NMOS_GDS Q2
 U 1 1 5F8F5081
 P 4900 8500
-F 0 "Q3" H 5105 8546 50  0000 L CNN
+F 0 "Q2" H 5105 8546 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 5105 8455 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-264-3_Vertical" H 5100 8600 50  0001 C CNN
 F 3 "http://ixapps.ixys.com/DataSheet/DS100129A(IXFK-FX180N25T).pdf" H 4900 8500 50  0001 C CNN
@@ -1430,10 +1428,10 @@ Wire Wire Line
 Wire Wire Line
 	10950 9100 11100 9100
 $Comp
-L Device:Q_NIGBT_GCE Q4
+L Device:Q_NIGBT_GCE Q3
 U 1 1 5F9A2B3D
 P 11500 8150
-F 0 "Q4" V 11828 8150 50  0000 C CNN
+F 0 "Q3" V 11828 8150 50  0000 C CNN
 F 1 "Q_NIGBT_GCE" V 11737 8150 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 11700 8250 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/discrete_igbts/littelfuse_discrete_igbts_xpt_ixy_140n90c3_datasheet.pdf.pdf" H 11500 8150 50  0001 C CNN
@@ -1537,32 +1535,10 @@ F 3 "" H 14900 8500 50  0001 C CNN
 	1    14900 8500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0139
-U 1 1 5FBA0E07
-P 12550 6300
-F 0 "#PWR0139" H 12550 6150 50  0001 C CNN
-F 1 "+5V" H 12565 6473 50  0000 C CNN
-F 2 "" H 12550 6300 50  0001 C CNN
-F 3 "" H 12550 6300 50  0001 C CNN
-	1    12550 6300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12550 6300 12550 6350
 Wire Wire Line
 	12550 6350 12600 6350
-$Comp
-L power:+5V #PWR0140
-U 1 1 5FBAF7ED
-P 13500 8350
-F 0 "#PWR0140" H 13500 8200 50  0001 C CNN
-F 1 "+5V" H 13515 8523 50  0000 C CNN
-F 2 "" H 13500 8350 50  0001 C CNN
-F 3 "" H 13500 8350 50  0001 C CNN
-	1    13500 8350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13450 8400 13500 8400
 Wire Wire Line
@@ -1970,111 +1946,12 @@ Wire Wire Line
 Wire Wire Line
 	5300 2400 6150 2400
 Connection ~ 5300 2400
-$Comp
-L Driver_FET:ZXGD3004E6 U3
-U 1 1 60A07AB2
-P 6150 5300
-F 0 "U3" V 6196 4956 50  0000 R CNN
-F 1 "ZXGD3004E6" V 6300 5000 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6150 4800 50  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ZXGD3004E6.pdf" H 5800 5550 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/diodes-incorporated/ZXGD3004E6TA/1827737?s=N4IgTCBcDaIFoA0DiARAzABgwFgKIDYQBdAXyA" V 6150 5300 50  0001 C CNN "Link"
-	1    6150 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 5200 5250 5200
-Wire Wire Line
-	5650 5400 5250 5400
-$Comp
-L power:GND #PWR0150
-U 1 1 60A07ABF
-P 6050 5850
-F 0 "#PWR0150" H 6050 5600 50  0001 C CNN
-F 1 "GND" H 6055 5677 50  0000 C CNN
-F 2 "" H 6050 5850 50  0001 C CNN
-F 3 "" H 6050 5850 50  0001 C CNN
-	1    6050 5850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6150 5600 6150 5850
-Wire Wire Line
-	6150 5850 6050 5850
-$Comp
-L power:VCC #PWR0151
-U 1 1 60A07AC7
-P 6350 4850
-F 0 "#PWR0151" H 6350 4700 50  0001 C CNN
-F 1 "VCC" H 6367 5023 50  0000 C CNN
-F 2 "" H 6350 4850 50  0001 C CNN
-F 3 "" H 6350 4850 50  0001 C CNN
-	1    6350 4850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6350 4850 6150 4850
-Wire Wire Line
-	6150 4850 6150 5000
-Text GLabel 4600 2850 2    50   Input ~ 0
-Drive_in
-Text GLabel 5100 5300 0    50   Input ~ 0
-Drive_in
-Wire Wire Line
-	5250 5200 5250 5300
-Wire Wire Line
-	5100 5300 5250 5300
-Connection ~ 5250 5300
-Wire Wire Line
-	5250 5300 5250 5400
-Wire Wire Line
-	6650 5200 7100 5200
-Wire Wire Line
-	7100 5200 7100 5300
-Wire Wire Line
-	7100 5400 6650 5400
-Text GLabel 7250 5300 2    50   Input ~ 0
-Drive_out
-Wire Wire Line
-	7250 5300 7100 5300
-Connection ~ 7100 5300
-Wire Wire Line
-	7100 5300 7100 5400
-Text GLabel 5750 2750 0    50   Input ~ 0
-Drive_out
 Wire Wire Line
 	5750 2750 5850 2750
-$Comp
-L Device:Q_NMOS_GDS Q2
-U 1 1 60AF002A
-P 7500 2750
-F 0 "Q2" H 7705 2796 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 7705 2705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-264-3_Vertical" H 7700 2850 50  0001 C CNN
-F 3 "http://ixapps.ixys.com/DataSheet/DS100129A(IXFK-FX180N25T).pdf" H 7500 2750 50  0001 C CNN
-F 4 "200V" H 7500 2750 50  0001 C CNN "Voltage"
-F 5 "https://www.digikey.com/product-detail/en/ixys/IXFK180N25T/IXFK180N25T-ND/2126319" H 7500 2750 50  0001 C CNN "Link"
-	1    7500 2750
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 2750 0    50   Input ~ 0
-Drive_out
-Wire Wire Line
-	7200 2750 7300 2750
 Wire Wire Line
 	6150 2550 6150 2400
-Connection ~ 6150 2400
 Wire Wire Line
 	6150 2950 6150 3100
-Connection ~ 6150 3100
-Wire Wire Line
-	7600 2550 7600 2400
-Wire Wire Line
-	6150 2400 7600 2400
-Wire Wire Line
-	7600 2950 7600 3100
-Wire Wire Line
-	6150 3100 7600 3100
 Connection ~ 4850 3450
 Wire Wire Line
 	4850 3450 4900 3450
@@ -2363,33 +2240,6 @@ F 3 "" H 8200 5400 50  0001 C CNN
 	1    8200 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C25
-U 1 1 612505E4
-P 6000 4850
-F 0 "C25" H 6115 4896 50  0000 L CNN
-F 1 "10uF" H 6115 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 6038 4700 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf" H 6000 4850 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CR61H106KE01L/5416878" H 6000 4850 50  0001 C CNN "Link"
-F 5 ">50V" H 6000 4850 50  0001 C CNN "Voltage"
-	1    6000 4850
-	0    -1   -1   0   
-$EndComp
-Connection ~ 6150 4850
-$Comp
-L power:GND #PWR0164
-U 1 1 612619A2
-P 5750 4850
-F 0 "#PWR0164" H 5750 4600 50  0001 C CNN
-F 1 "GND" H 5755 4677 50  0000 C CNN
-F 2 "" H 5750 4850 50  0001 C CNN
-F 3 "" H 5750 4850 50  0001 C CNN
-	1    5750 4850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5850 4850 5750 4850
 $Comp
 L Device:C C14
 U 1 1 612A0117
@@ -3174,4 +3024,30 @@ Connection ~ 9100 8750
 Connection ~ 9700 8750
 Wire Wire Line
 	9700 8750 9100 8750
+$Comp
+L power:+5VD #PWR?
+U 1 1 6123F13A
+P 13500 8350
+F 0 "#PWR?" H 13500 8200 50  0001 C CNN
+F 1 "+5VD" H 13515 8523 50  0000 C CNN
+F 2 "" H 13500 8350 50  0001 C CNN
+F 3 "" H 13500 8350 50  0001 C CNN
+	1    13500 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR?
+U 1 1 612430CA
+P 12550 6300
+F 0 "#PWR?" H 12550 6150 50  0001 C CNN
+F 1 "+5VD" H 12565 6473 50  0000 C CNN
+F 2 "" H 12550 6300 50  0001 C CNN
+F 3 "" H 12550 6300 50  0001 C CNN
+	1    12550 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2850 5750 2750
+Wire Wire Line
+	4200 2850 5750 2850
 $EndSCHEMATC
