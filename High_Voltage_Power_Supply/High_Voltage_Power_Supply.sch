@@ -2354,37 +2354,11 @@ F 3 "" H 2000 6800 50  0001 C CNN
 	1    2000 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0146
-U 1 1 60771EEA
-P 2550 6800
-F 0 "#PWR0146" H 2550 6550 50  0001 C CNN
-F 1 "GND" H 2555 6627 50  0000 C CNN
-F 2 "" H 2550 6800 50  0001 C CNN
-F 3 "" H 2550 6800 50  0001 C CNN
-	1    2550 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C5
-U 1 1 6076EBA7
-P 2550 6650
-F 0 "C5" H 2668 6696 50  0000 L CNN
-F 1 "1000uF" H 2668 6605 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 2588 6500 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 2550 6650 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/nichicon/UPW2A102MHD/493-1988-ND/589729" H 2550 6650 50  0001 C CNN "Link"
-	1    2550 6650
-	1    0    0    -1  
-$EndComp
-Connection ~ 2550 6500
-Wire Wire Line
-	2550 6500 3750 6500
 Wire Wire Line
 	1650 6500 2000 6500
 Connection ~ 2000 6500
 Wire Wire Line
-	2000 6500 2550 6500
-Wire Wire Line
 	2700 850  3650 850 
+Wire Wire Line
+	2000 6500 3750 6500
 $EndSCHEMATC
