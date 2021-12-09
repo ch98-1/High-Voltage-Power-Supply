@@ -101,20 +101,6 @@ F 4 "https://www.digikey.com/en/products/detail/yageo/RT0603BRE0780K6L/1073164" 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 1300 1500 850 
-$Comp
-L Connector:Conn_01x02_Female J1
-U 1 1 5B88A9A0
-P 1300 1400
-F 0 "J1" H 1300 1200 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 1550 1100 50  0000 C CNN
-F 2 "Connector:Banana_Jack_2Pin" H 1300 1400 50  0001 C CNN
-F 3 "~" H 1300 1400 50  0001 C CNN
-F 4 "48V" H 1300 1400 50  0001 C CNN "Voltage"
-	1    1300 1400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
 	4200 3650 4400 3650
 $Comp
 L Device:R R12
@@ -313,8 +299,6 @@ Wire Wire Line
 	8250 1150 8750 1150
 Wire Wire Line
 	8250 1300 8250 1150
-Wire Wire Line
-	8750 1150 8750 1950
 $Comp
 L Device:D_ALT D1
 U 1 1 5B8883AA
@@ -327,8 +311,6 @@ F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/NDSH25170A/NDSH2
 	1    7450 1150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8750 1950 9000 1950
 $Comp
 L power:GND #PWR0112
 U 1 1 5B8C94EE
@@ -341,21 +323,7 @@ F 3 "" H 9000 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 1950 9000 2150
-Wire Wire Line
 	9000 2450 9000 2250
-$Comp
-L Connector:Conn_01x02_Female J2
-U 1 1 5B889E8A
-P 9200 2250
-F 0 "J2" H 9200 2050 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 9450 1950 50  0000 C CNN
-F 2 "Connector:Banana_Jack_2Pin" H 9200 2250 50  0001 C CNN
-F 3 "~" H 9200 2250 50  0001 C CNN
-F 4 "1000V" H 9200 2250 50  0001 C CNN "Voltage"
-	1    9200 2250
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:C C34
 U 1 1 5B889643
@@ -369,9 +337,6 @@ F 5 ">1200V" H 8250 1450 50  0001 C CNN "Voltage"
 	1    8250 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8750 2800 8750 1950
-Connection ~ 8750 1950
 Wire Wire Line
 	8250 2150 8250 1850
 Connection ~ 4400 3750
@@ -1236,20 +1201,6 @@ F 3 "" H 11700 8500 50  0001 C CNN
 	1    11700 8500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11600 7550 11600 7750
-$Comp
-L Connector:Conn_01x02_Female J3
-U 1 1 5F8F50A7
-P 11800 7850
-F 0 "J3" H 11800 7650 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 12050 7550 50  0000 C CNN
-F 2 "Connector:Banana_Jack_2Pin" H 11800 7850 50  0001 C CNN
-F 3 "~" H 11800 7850 50  0001 C CNN
-F 4 "1000V" H 11800 7850 50  0001 C CNN "Voltage"
-	1    11800 7850
-	1    0    0    1   
-$EndComp
 Connection ~ 8850 9400
 Wire Wire Line
 	8850 9400 8850 9600
@@ -1429,12 +1380,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0138
 U 1 1 5FB6971C
-P 14900 8500
-F 0 "#PWR0138" H 14900 8250 50  0001 C CNN
-F 1 "GND" H 14905 8327 50  0000 C CNN
-F 2 "" H 14900 8500 50  0001 C CNN
-F 3 "" H 14900 8500 50  0001 C CNN
-	1    14900 8500
+P 14700 8100
+F 0 "#PWR0138" H 14700 7850 50  0001 C CNN
+F 1 "GND" H 14705 7927 50  0000 C CNN
+F 2 "" H 14700 8100 50  0001 C CNN
+F 3 "" H 14700 8100 50  0001 C CNN
+	1    14700 8100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1526,38 +1477,14 @@ Wire Wire Line
 Wire Wire Line
 	12600 6650 12350 6650
 $Comp
-L Connector:Conn_01x12_Female J4
-U 1 1 60071CC3
-P 15150 7950
-F 0 "J4" H 15178 7926 50  0000 L CNN
-F 1 "Conn_01x12_Female" H 15178 7835 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 15150 7950 50  0001 C CNN
-F 3 "~" H 15150 7950 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/adam-tech/PH1-12-UA/9830395" H 15150 7950 50  0001 C CNN "Link"
-	1    15150 7950
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	14900 8500 14900 8450
-Wire Wire Line
-	14900 8450 14950 8450
-Wire Wire Line
-	14950 8350 14900 8350
-Connection ~ 14900 8350
-Wire Wire Line
-	14900 8350 14900 8250
-Wire Wire Line
-	14900 8350 14900 8450
-Connection ~ 14900 8450
-$Comp
 L power:VCC #PWR0143
 U 1 1 600FC5B9
-P 14200 8150
-F 0 "#PWR0143" H 14200 8000 50  0001 C CNN
-F 1 "VCC" H 14217 8323 50  0000 C CNN
-F 2 "" H 14200 8150 50  0001 C CNN
-F 3 "" H 14200 8150 50  0001 C CNN
-	1    14200 8150
+P 14750 8650
+F 0 "#PWR0143" H 14750 8500 50  0001 C CNN
+F 1 "VCC" H 14767 8823 50  0000 C CNN
+F 2 "" H 14750 8650 50  0001 C CNN
+F 3 "" H 14750 8650 50  0001 C CNN
+	1    14750 8650
 	1    0    0    -1  
 $EndComp
 Text GLabel 14850 7650 0    50   Input ~ 0
@@ -1609,8 +1536,6 @@ $EndComp
 Wire Wire Line
 	4900 3400 5100 3400
 Wire Wire Line
-	11600 7950 11600 7850
-Wire Wire Line
 	11300 8150 11300 8500
 Wire Wire Line
 	11600 8350 11600 8400
@@ -1624,14 +1549,6 @@ Text GLabel 14800 7450 0    50   Input ~ 0
 CHARGE_5V
 Text GLabel 14800 7350 0    50   Input ~ 0
 FIRE_5V
-Wire Wire Line
-	14950 8150 14900 8150
-Wire Wire Line
-	14950 7850 14750 7850
-Wire Wire Line
-	14750 7850 14750 7950
-Wire Wire Line
-	14750 8000 14400 8000
 $Comp
 L Device:C C31
 U 1 1 60088DD7
@@ -1679,8 +1596,6 @@ Wire Wire Line
 	8750 3750 8750 3950
 Text GLabel 10450 1100 0    50   Input ~ 0
 Vtrans
-Wire Wire Line
-	14900 8250 14950 8250
 $Comp
 L power:VCC #PWR0149
 U 1 1 608522CF
@@ -2241,18 +2156,6 @@ Wire Wire Line
 	5750 2850 5750 2750
 Wire Wire Line
 	4200 2850 5750 2850
-Wire Wire Line
-	14950 8050 14900 8050
-Wire Wire Line
-	14900 8050 14900 8150
-Connection ~ 14900 8150
-Wire Wire Line
-	14900 8150 14200 8150
-Wire Wire Line
-	14950 7950 14750 7950
-Connection ~ 14750 7950
-Wire Wire Line
-	14750 7950 14750 8000
 Connection ~ 1700 850 
 Connection ~ 2200 850 
 Wire Wire Line
@@ -2354,37 +2257,141 @@ F 3 "" H 2000 6800 50  0001 C CNN
 	1    2000 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0146
-U 1 1 60771EEA
-P 2550 6800
-F 0 "#PWR0146" H 2550 6550 50  0001 C CNN
-F 1 "GND" H 2555 6627 50  0000 C CNN
-F 2 "" H 2550 6800 50  0001 C CNN
-F 3 "" H 2550 6800 50  0001 C CNN
-	1    2550 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C5
-U 1 1 6076EBA7
-P 2550 6650
-F 0 "C5" H 2668 6696 50  0000 L CNN
-F 1 "1000uF" H 2668 6605 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 2588 6500 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 2550 6650 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/nichicon/UPW2A102MHD/493-1988-ND/589729" H 2550 6650 50  0001 C CNN "Link"
-	1    2550 6650
-	1    0    0    -1  
-$EndComp
-Connection ~ 2550 6500
-Wire Wire Line
-	2550 6500 3750 6500
 Wire Wire Line
 	1650 6500 2000 6500
 Connection ~ 2000 6500
 Wire Wire Line
-	2000 6500 2550 6500
-Wire Wire Line
 	2700 850  3650 850 
+Wire Wire Line
+	2000 6500 3750 6500
+Wire Wire Line
+	14600 7850 14600 8000
+Wire Wire Line
+	14600 8000 14400 8000
+Wire Wire Line
+	14600 7850 14950 7850
+Wire Wire Line
+	14950 7950 14700 7950
+Wire Wire Line
+	14700 7950 14700 8100
+$Comp
+L Connector:Conn_01x07_Female J?
+U 1 1 61BC0B78
+P 15150 7650
+F 0 "J?" H 15178 7676 50  0000 L CNN
+F 1 "Conn_01x07_Female" H 15178 7585 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 15150 7650 50  0001 C CNN
+F 3 "~" H 15150 7650 50  0001 C CNN
+	1    15150 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61BC2FCF
+P 14750 8750
+F 0 "#PWR?" H 14750 8500 50  0001 C CNN
+F 1 "GND" H 14755 8577 50  0000 C CNN
+F 2 "" H 14750 8750 50  0001 C CNN
+F 3 "" H 14750 8750 50  0001 C CNN
+	1    14750 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 61BC390C
+P 15150 8650
+F 0 "J?" H 15178 8626 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 15178 8535 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 15150 8650 50  0001 C CNN
+F 3 "~" H 15150 8650 50  0001 C CNN
+	1    15150 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 8650 14750 8650
+Wire Wire Line
+	14950 8750 14750 8750
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61C00E10
+P 900 1050
+F 0 "J?" H 1008 1231 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1008 1140 50  0000 C CNN
+F 2 "Connector:Banana_Jack_1Pin" H 900 1050 50  0001 C CNN
+F 3 "~" H 900 1050 50  0001 C CNN
+	1    900  1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61C017F4
+P 900 1400
+F 0 "J?" H 1008 1581 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1008 1490 50  0000 C CNN
+F 2 "Connector:Banana_Jack_1Pin" H 900 1400 50  0001 C CNN
+F 3 "~" H 900 1400 50  0001 C CNN
+	1    900  1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1050 1500 1050
+Wire Wire Line
+	1500 1050 1500 850 
+Wire Wire Line
+	1100 1400 1500 1400
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61C3BC7E
+P 9250 1800
+F 0 "J?" H 9222 1732 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 9222 1823 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 9250 1800 50  0001 C CNN
+F 3 "~" H 9250 1800 50  0001 C CNN
+	1    9250 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 1150 8750 1800
+Wire Wire Line
+	9050 1800 8750 1800
+Connection ~ 8750 1800
+Wire Wire Line
+	8750 1800 8750 2800
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61C55331
+P 9250 2250
+F 0 "J?" H 9222 2182 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 9222 2273 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 9250 2250 50  0001 C CNN
+F 3 "~" H 9250 2250 50  0001 C CNN
+	1    9250 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 2250 9000 2250
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61C6F20F
+P 11800 7550
+F 0 "J?" H 11772 7482 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 11772 7573 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 11800 7550 50  0001 C CNN
+F 3 "~" H 11800 7550 50  0001 C CNN
+	1    11800 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61C78681
+P 11800 7750
+F 0 "J?" H 11772 7682 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 11772 7773 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 11800 7750 50  0001 C CNN
+F 3 "~" H 11800 7750 50  0001 C CNN
+	1    11800 7750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11600 7750 11600 7950
 $EndSCHEMATC

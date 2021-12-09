@@ -1,4 +1,4 @@
-update=Sat 19 Jun 2021 01:39:05 AM PDT
+update=Wed 08 Dec 2021 08:36:12 PM PST
 version=1
 last_client=kicad
 [general]
@@ -264,7 +264,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=High Voltage
-Clearance=5.588
+Clearance=2.5
 TrackWidth=0.254
 ViaDiameter=0.8128
 ViaDrill=0.4064
@@ -275,7 +275,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=High Voltage Low Clearence
-Clearance=1.27
+Clearance=1.5
 TrackWidth=0.254
 ViaDiameter=0.8128
 ViaDrill=0.4064
@@ -286,7 +286,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=Mid Voltage
-Clearance=1.27
+Clearance=1
 TrackWidth=0.254
 ViaDiameter=0.8128
 ViaDrill=0.4064
@@ -297,7 +297,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=Mid Voltage Low Clearence
-Clearance=0.127
+Clearance=0.5
 TrackWidth=0.254
 ViaDiameter=0.8128
 ViaDrill=0.4064
